@@ -1,0 +1,2201 @@
+{
+ "response": {
+  "result_sources": {
+   "token_match": {
+    "count": 32
+   },
+   "embeddings_match": {
+    "count": 0
+   }
+  },
+  "facets": [
+   {
+    "display_name": "Shops",
+    "name": "Shops",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Bambury",
+      "value": "Bambury",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "KG SuperStore",
+      "value": "KG SuperStore",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 24,
+      "display_name": "Kmart",
+      "value": "Kmart",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Target",
+      "value": "Target",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Category",
+    "name": "Category",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Bath Towel",
+      "value": "Bath Towel",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Bath Sheets",
+      "value": "Bath Sheets",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Pools, Beach & Swimming",
+      "value": "Pools, Beach & Swimming",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Hand Towels",
+      "value": "Hand Towels",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Face Washers",
+      "value": "Face Washers",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Towels",
+      "value": "Towels",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Pencil Cases",
+      "value": "Pencil Cases",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Boys Clothing",
+      "value": "Boys Clothing",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Kitchen Linen & Tea Towels",
+      "value": "Kitchen Linen & Tea Towels",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Subcategory",
+    "name": "Subcategory",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Beach",
+      "value": "Beach",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Shorts",
+      "value": "Shorts",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Product Type",
+    "name": "Product Type",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Bath Towel",
+      "value": "Bath Towel",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Towel",
+      "value": "Towel",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Hand Towel",
+      "value": "Hand Towel",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Bath Sheet",
+      "value": "Bath Sheet",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Face Washer",
+      "value": "Face Washer",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Tea Towels",
+      "value": "Tea Towels",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Colour",
+    "name": "Colour",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "selected",
+      "count": 32,
+      "display_name": "Blue",
+      "value": "Blue",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 20,
+      "display_name": "Grey",
+      "value": "Grey",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 18,
+      "display_name": "White",
+      "value": "White",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 15,
+      "display_name": "Brown",
+      "value": "Brown",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 25,
+      "display_name": "Pink",
+      "value": "Pink",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 33,
+      "display_name": "Green",
+      "value": "Green",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 15,
+      "display_name": "Black",
+      "value": "Black",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 29,
+      "display_name": "Multi",
+      "value": "Multi",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Silver",
+      "value": "Silver",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 9,
+      "display_name": "Purple",
+      "value": "Purple",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Red",
+      "value": "Red",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 11,
+      "display_name": "Pattern",
+      "value": "Pattern",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "NATURAL",
+      "value": "NATURAL",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Orange",
+      "value": "Orange",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Beige",
+      "value": "Beige",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "CHARCOAL",
+      "value": "CHARCOAL",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Plain",
+      "value": "Plain",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Gold",
+      "value": "Gold",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Brand",
+    "name": "Brand",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 24,
+      "display_name": "Anko",
+      "value": "Anko",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Bambury",
+      "value": "Bambury",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Grandeur",
+      "value": "Grandeur",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Target",
+      "value": "Target",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in NSW",
+    "name": "Available in NSW",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 30,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Price",
+    "name": "Price",
+    "type": "multiple",
+    "hidden": false,
+    "data": {},
+    "options": [
+     {
+      "status": "",
+      "count": 14,
+      "display_name": "$5 and less",
+      "value": "\"-inf\"-\"5\"",
+      "data": {},
+      "range": [
+       "-inf",
+       5
+      ]
+     },
+     {
+      "status": "selected",
+      "count": 0,
+      "display_name": "0 - 10",
+      "value": "\"0\"-\"10\"",
+      "data": {},
+      "range": [
+       0,
+       10
+      ]
+     },
+     {
+      "status": "",
+      "count": 22,
+      "display_name": "$5 - $10",
+      "value": "\"5\"-\"10\"",
+      "data": {},
+      "range": [
+       5,
+       10
+      ]
+     },
+     {
+      "status": "",
+      "count": 55,
+      "display_name": "$10 - $20",
+      "value": "\"10\"-\"20\"",
+      "data": {},
+      "range": [
+       10,
+       20
+      ]
+     },
+     {
+      "status": "",
+      "count": 61,
+      "display_name": "$20 - $30",
+      "value": "\"20\"-\"30\"",
+      "data": {},
+      "range": [
+       20,
+       30
+      ]
+     },
+     {
+      "status": "",
+      "count": 50,
+      "display_name": "$30 - $50",
+      "value": "\"30\"-\"50\"",
+      "data": {},
+      "range": [
+       30,
+       50
+      ]
+     },
+     {
+      "status": "",
+      "count": 39,
+      "display_name": "$50 - $100",
+      "value": "\"50\"-\"100\"",
+      "data": {},
+      "range": [
+       50,
+       100
+      ]
+     },
+     {
+      "status": "",
+      "count": 44,
+      "display_name": "$100 and more",
+      "value": "\"100\"-\"inf\"",
+      "data": {},
+      "range": [
+       100,
+       "inf"
+      ]
+     }
+    ]
+   },
+   {
+    "display_name": "Material",
+    "name": "Material",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Cotton",
+      "value": "Cotton",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 7,
+      "display_name": "Australian Cotton",
+      "value": "Australian Cotton",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in WA",
+    "name": "Available in WA",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 29,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in VIC",
+    "name": "Available in VIC",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 31,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "onepassEligible",
+    "name": "onepassEligible",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 27,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in QLD",
+    "name": "Available in QLD",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 29,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in SA",
+    "name": "Available in SA",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 28,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in TAS",
+    "name": "Available in TAS",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 28,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "onlineOnly",
+    "name": "onlineOnly",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 31,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in ACT",
+    "name": "Available in ACT",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 30,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in NT",
+    "name": "Available in NT",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 28,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Seller",
+    "name": "Seller",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 24,
+      "display_name": "Kmart",
+      "value": "Kmart",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Target",
+      "value": "Target",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Marketplace",
+      "value": "Marketplace",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Size",
+    "name": "Size",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/1",
+      "value": "1",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/2",
+      "value": "2",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/3",
+      "value": "3",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/4",
+      "value": "4",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/5",
+      "value": "5",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/6",
+      "value": "6",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/7",
+      "value": "7",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/8",
+      "value": "8",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "/9",
+      "value": "9",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 23,
+      "display_name": "/One Size ",
+      "value": "One Size Fits All",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Gender",
+    "name": "Gender",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Boys",
+      "value": "Boys",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "clearance",
+    "name": "clearance",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 29,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Fit",
+    "name": "Fit",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Relaxed",
+      "value": "Relaxed",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "stateOOS",
+    "name": "stateOOS",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 28,
+      "display_name": "\"{}\"",
+      "value": "\"{}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"NSW\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"NSW\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"NSW\\\":\\\"9\\\",\\\"VIC\\\":\\\"9\\\",\\\"QLD\\\":\\\"9\\\",\\\"TAS\\\":\\\"9\\\",\\\"ACT\\\":\\\"9\\\",\\\"SA\\\":\\\"9\\\",\\\"WA\\\":\\\"9\\\",\\\"NT\\\":\\\"9\\\"}\"",
+      "value": "\"{\\\"NSW\\\":\\\"9\\\",\\\"VIC\\\":\\\"9\\\",\\\"QLD\\\":\\\"9\\\",\\\"TAS\\\":\\\"9\\\",\\\"ACT\\\":\\\"9\\\",\\\"SA\\\":\\\"9\\\",\\\"WA\\\":\\\"9\\\",\\\"NT\\\":\\\"9\\\"}\"",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "secondarycolour",
+    "name": "secondarycolour",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Ocean",
+      "value": "Ocean",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Teal",
+      "value": "Teal",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 10,
+      "display_name": "Blue",
+      "value": "Blue",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Shark",
+      "value": "Shark",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Rev Blu/yl",
+      "value": "Rev Blu/yl",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Blue Check",
+      "value": "Blue Check",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Palms",
+      "value": "Palms",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Blu Stripe",
+      "value": "Blu Stripe",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Blu Sorbet",
+      "value": "Blu Sorbet",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "__cnstrc_age",
+    "name": "__cnstrc_age",
+    "data": {},
+    "type": "range",
+    "hidden": true,
+    "status": {},
+    "min": 157,
+    "max": 17176
+   }
+  ],
+  "groups": [
+   {
+    "group_id": "all",
+    "display_name": "All",
+    "count": 32,
+    "data": {},
+    "children": [
+     {
+      "group_id": "dddaa894234df841cfb678463562e055",
+      "display_name": "Home & Living",
+      "count": 31,
+      "data": {
+       "url": "/home-and-living/",
+       "sequence": 10000,
+       "isSpecial": false,
+       "identifier": "Home & Living",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "dddaa894234df841cfb678463562e055"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "b18e66b41efd9a3df1a7bc8758da1883",
+      "display_name": "Winter",
+      "count": 5,
+      "data": {
+       "url": "/Winter/inactive/",
+       "sequence": 9750,
+       "isSpecial": false,
+       "identifier": "Winter",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "b18e66b41efd9a3df1a7bc8758da1883"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "2d95e1e17abc6c9afb85088671f65e3a",
+      "display_name": "Sport & Outdoor",
+      "count": 12,
+      "data": {
+       "url": "/sport-and-outdoor/",
+       "sequence": 18000,
+       "isSpecial": false,
+       "identifier": "Sport & Outdoor",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "2d95e1e17abc6c9afb85088671f65e3a"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "faaad9343dac03b28bb32e4b4156a604",
+      "display_name": "Clearance",
+      "count": 2,
+      "data": {
+       "url": "/inactive/",
+       "sequence": 23000,
+       "isSpecial": false,
+       "identifier": "Clearance",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "faaad9343dac03b28bb32e4b4156a604"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "336fdcf7d540e4b430a890b63da159c9",
+      "display_name": "Entertainment",
+      "count": 1,
+      "data": {
+       "url": "/entertainment/",
+       "sequence": 20000,
+       "isSpecial": false,
+       "identifier": "Entertainment",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "336fdcf7d540e4b430a890b63da159c9"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "4e21b615a67e9e9ad13a030628bb904c",
+      "display_name": "Back To School",
+      "count": 1,
+      "data": {
+       "url": "/back-to-school/inactive/",
+       "sequence": 7000,
+       "isSpecial": false,
+       "identifier": "Back To School",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "4e21b615a67e9e9ad13a030628bb904c"
+       ],
+       "defaultCategory": false
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "6095b2832f08bb7ca1c60ffc1b2d091b",
+      "display_name": "Kids & Baby",
+      "count": 1,
+      "data": {
+       "url": "/kids/",
+       "sequence": 13000,
+       "isSpecial": false,
+       "identifier": "Kids & Baby",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "6095b2832f08bb7ca1c60ffc1b2d091b"
+       ],
+       "defaultCategory": false
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     }
+    ],
+    "parents": []
+   }
+  ],
+  "results": [
+   {
+    "matched_terms": [
+     "towels"
+    ],
+    "labels": {
+     "__cnstrc_is_context_bestseller": {
+      "display_name": "is_context_bestseller",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_43486281",
+     "url": "/product/edan-cotton-face-washer-blue-43486281/",
+     "uri": "/product/edan-cotton-face-washer-blue-43486281/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/3decb3d4-7396-4ac2-b40a-4897ef47aa58/43486281-1?io=transform:extend,width:580,height:725",
+     "altImages": [
+      "2eee88db-fbfa-4976-9e98-a5d1db57965f/43486281-2",
+      "770c018b-f4bb-4e27-9a92-382c055bc09c/43486281-3",
+      "465e188f-8de6-43d8-85b6-9ba8e9e23abc/43486281-4",
+      "7639ff2c-8d5d-4841-a6b7-0aa38c12a942/43486281-5",
+      "9de42e5e-7843-4696-92ef-ea7a4fc819a5/43486281-6"
+     ],
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "AssortedProducts": false,
+     "isPreOrderActive": false,
+     "primaryCategoryId": "36ed5ecb845287bad6fa81838cc9a6f0",
+     "FreeShippingMetro": true,
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 1,
+      "averageScore": 5
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "After a refreshing cleanse, gently pat your face dry using this Edan Cotton Face Washer - perfect for everyday use.<br /><br /><strong>Product Details</strong><ul><li><strong>Dimensions/Size:</strong>&nbsp;33cm (L) x 33cm (W)</li><li><strong>Material:</strong>&nbsp;Cotton</li><li><strong>Colour:</strong>&nbsp;Blue</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions</strong>: Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "f28b5206bb561e62380cd15c97f6801a",
+      "36ed5ecb845287bad6fa81838cc9a6f0",
+      "fac0e533fcea70cda9cc5d0ec6a3397c"
+     ],
+     "apn": 9341110782044,
+     "Size": "One Size",
+     "price": 2,
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "Blue",
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.00",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "1899-12-30"
+      }
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "43486281",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Blue"
+    },
+    "value": "Edan Cotton Face Washer - Blue",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341110782044,
+       "Size": "One Size",
+       "price": 2,
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "Blue",
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.00",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "1899-12-30"
+        }
+       ],
+       "altImages": [
+        "2eee88db-fbfa-4976-9e98-a5d1db57965f/43486281-2",
+        "770c018b-f4bb-4e27-9a92-382c055bc09c/43486281-3",
+        "465e188f-8de6-43d8-85b6-9ba8e9e23abc/43486281-4",
+        "7639ff2c-8d5d-4841-a6b7-0aa38c12a942/43486281-5",
+        "9de42e5e-7843-4696-92ef-ea7a4fc819a5/43486281-6"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/3decb3d4-7396-4ac2-b40a-4897ef47aa58/43486281-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "variation_id": "43486281",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Blue"
+      },
+      "value": "Edan Cotton Face Washer - Blue"
+     }
+    ]
+   },
+   {
+    "matched_terms": [
+     "towels"
+    ],
+    "labels": {
+     "__cnstrc_is_context_bestseller": {
+      "display_name": "is_context_bestseller",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_43486168",
+     "url": "/product/edan-cotton-face-washer-teal-43486168/",
+     "uri": "/product/edan-cotton-face-washer-teal-43486168/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/86762b6a-f63e-4d79-835a-9c2a31137bfc/43486168-1?io=transform:extend,width:580,height:725",
+     "altImages": [
+      "31141783-71f0-4f54-9c1f-b1cc38c9ffdb/43486168-2",
+      "d7ed9764-93e9-484c-bb66-538b4d6257ab/43486168-3",
+      "08260df1-04ae-43e5-83e5-867effe11bba/43486168-4",
+      "b92d7cfd-0f6f-4026-b051-9a070453bdda/43486168-5",
+      "8999ad87-8441-4a7f-bb5e-6c51a429b8d2/43486168-6"
+     ],
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "AssortedProducts": false,
+     "isPreOrderActive": false,
+     "primaryCategoryId": "36ed5ecb845287bad6fa81838cc9a6f0",
+     "FreeShippingMetro": true,
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 9,
+      "averageScore": 4.8
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "<em><strong>Image of different sizes given only for representation. Product includes only one size as specified in product details section. Please check website for different size options from the same range.</strong></em><br /><br />Gently pat your face dry after a wash with this Edan Face Washer. Crafted from cotton, it provides excellent absorbency.<br /><br /><strong>Product Details</strong><ul><li><strong>Material:</strong> Cotton</li><li><strong>Dimensions/Size:</strong> 33cm (L) x 33cm (W)</li><li><strong>Colour:</strong> Teal (Blue)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions: </strong>Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "f28b5206bb561e62380cd15c97f6801a",
+      "36ed5ecb845287bad6fa81838cc9a6f0",
+      "fac0e533fcea70cda9cc5d0ec6a3397c"
+     ],
+     "apn": 9341110781856,
+     "Size": "One Size",
+     "price": 2,
+     "Seller": [
+      "Kmart"
+     ],
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.00",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "1899-12-30"
+      }
+     ],
+     "Colour": "Blue",
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "43486168",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Teal"
+    },
+    "value": "Edan Cotton Face Washer - Teal",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341110781856,
+       "Size": "One Size",
+       "price": 2,
+       "Seller": [
+        "Kmart"
+       ],
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.00",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "1899-12-30"
+        }
+       ],
+       "Colour": "Blue",
+       "altImages": [
+        "31141783-71f0-4f54-9c1f-b1cc38c9ffdb/43486168-2",
+        "d7ed9764-93e9-484c-bb66-538b4d6257ab/43486168-3",
+        "08260df1-04ae-43e5-83e5-867effe11bba/43486168-4",
+        "b92d7cfd-0f6f-4026-b051-9a070453bdda/43486168-5",
+        "8999ad87-8441-4a7f-bb5e-6c51a429b8d2/43486168-6"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/86762b6a-f63e-4d79-835a-9c2a31137bfc/43486168-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "is_default": false,
+       "variation_id": "43486168",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Teal"
+      },
+      "value": "Edan Cotton Face Washer - Teal"
+     }
+    ]
+   },
+   {
+    "matched_terms": [
+     "towel"
+    ],
+    "labels": {},
+    "data": {
+     "id": "P_43559060",
+     "url": "/product/pencil-case-pouch-towel-43559060/",
+     "uri": "/product/pencil-case-pouch-towel-43559060/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "SavePrice": "WAS $5",
+     "altImages": [
+      "763d7944-8b3d-41e6-9eac-cb2f4dfbc1f6/43559060-2",
+      "7b67fe51-fe5f-4fee-8fce-15164db147f4/43559060-3",
+      "28db4ca6-b1ee-4fc9-aec5-e0b633d4879c/43559060-4",
+      "90203c92-f1fa-461c-9d6d-bc627d849d2c/43559060-5"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/c235363b-6043-4b66-b4ca-8397dfbb9228/43559060-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "GENERAL STATIONERY",
+     "MerchDepartment": 24,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "nationalInventory": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "9fb7c92959875094395966734c60e082",
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "averageScore": 4.5,
+      "totalReviews": 2
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "<p>Keep your stationery organised with this compact and stylish Pencil Case. Featuring a zip closure and spacious interior, it holds pens, pencils, erasers and more.&nbsp;</p><p><strong>Product Details</strong></p><ul><li><strong>Dimensions/Size:&nbsp;</strong>16cm (H) x 22cm (W) x 1cm (D)</li><li><strong>Material:</strong>&nbsp;Polyester</li><li><strong>Colour:</strong>&nbsp;Blue</li></ul><p><strong>Features</strong></p><ul><li>Towel design</li><li>Zip closure</li><li>It can store and organise pens, pencils and other stationery items</li></ul><p><strong>Additional Information</strong></p><ul><li><strong>Care instructions:&nbsp;</strong>Clean according to given instructions&nbsp;</li></ul>",
+     "group_ids": [
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "196b51eb1cc5424c0d1b2da41425e66e",
+      "479ee710f7274ec33a91623a7b14cac7",
+      "b831e2bc9fd085e4028d8274efb7d014",
+      "f38aba8932b1a18989bf295c358e7942",
+      "f828e41b39606719543935585e608824",
+      "9fb7c92959875094395966734c60e082",
+      "9f8fea71196ec02f439cfa822ab58ef2",
+      "0503eca41c526c403c2c5151b9e46d12",
+      "3dc32ab822eb350932d388e9848c5b5e"
+     ],
+     "apn": 9341111170567,
+     "Size": "One Size",
+     "price": 2,
+     "Seller": [
+      "Kmart"
+     ],
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.00",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2026-07-07"
+      }
+     ],
+     "Colour": "Blue",
+     "clearance": true,
+     "is_default": false,
+     "stateOOS": {
+      "SA": "6",
+      "WA": "6",
+      "NT": "6",
+      "QLD": "6",
+      "TAS": "6",
+      "ACT": "6",
+      "NSW": "6"
+     },
+     "variation_id": "43559060",
+     "variant_video": {},
+     "variant_badges": [
+      "Clearance"
+     ],
+     "SecondaryColour": "Blue",
+     "variant_badges_marketplace": {
+      "pricing": [
+       {
+        "id": "PR02_CLEARANCE",
+        "type": "pricing",
+        "order": 2,
+        "theme": {
+         "variant": "implicit"
+        },
+        "displayText": "Clearance"
+       }
+      ]
+     }
+    },
+    "value": "Pencil Case - Pouch Towel",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341111170567,
+       "Size": "One Size",
+       "price": 2,
+       "Seller": [
+        "Kmart"
+       ],
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.00",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2026-07-07"
+        }
+       ],
+       "Colour": "Blue",
+       "altImages": [
+        "763d7944-8b3d-41e6-9eac-cb2f4dfbc1f6/43559060-2",
+        "7b67fe51-fe5f-4fee-8fce-15164db147f4/43559060-3",
+        "28db4ca6-b1ee-4fc9-aec5-e0b633d4879c/43559060-4",
+        "90203c92-f1fa-461c-9d6d-bc627d849d2c/43559060-5"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/c235363b-6043-4b66-b4ca-8397dfbb9228/43559060-1?io=transform:extend,width:580,height:725",
+       "clearance": true,
+       "is_default": false,
+       "stateOOS": {
+        "SA": "6",
+        "WA": "6",
+        "NT": "6",
+        "QLD": "6",
+        "TAS": "6",
+        "ACT": "6",
+        "NSW": "6"
+       },
+       "variation_id": "43559060",
+       "variant_video": {},
+       "variant_badges": [
+        "Clearance"
+       ],
+       "SecondaryColour": "Blue",
+       "variant_badges_marketplace": {
+        "pricing": [
+         {
+          "id": "PR02_CLEARANCE",
+          "type": "pricing",
+          "order": 2,
+          "theme": {
+           "variant": "implicit"
+          },
+          "displayText": "Clearance"
+         }
+        ]
+       }
+      },
+      "value": "Pencil Case - Pouch Towel"
+     }
+    ]
+   },
+   {
+    "matched_terms": [
+     "towel"
+    ],
+    "labels": {
+     "__cnstrc_is_context_bestseller": {
+      "display_name": "is_context_bestseller",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_42442370",
+     "url": "/product/madison-bath-towel-ocean-42442370/",
+     "uri": "/product/madison-bath-towel-ocean-42442370/",
+     "video": {},
+     "Brand": "Anko",
+     "badges": [],
+     "altImages": [
+      "c78ddf2f-22e7-4719-a932-6d487a3b0595/42442370-2"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/fae61d42-b7e7-4eae-bf31-b8fc8facf616/42442370-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 346,
+      "averageScore": 4.6
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Wipe yourself dry after a relaxing shower or a splash in the pool with this soft bath towel.<br><br><strong>Product Details</strong><ul><li><strong>Dimensions/Size: </strong>135cm (L) x&nbsp;68cm (W)</li><li><strong>Material: </strong>Cotton</li><li><strong>Colour: </strong>Ocean (Blue)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions: </strong>Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "5979e283e373932b250680959150c70b",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "50d2c022c440bd69ba551e412e810905",
+      "686d3c7be946b11316a1fc44897b10ff",
+      "19d4b43fa883720479d5936e4cc04223",
+      "fe55ea1c2dd73aa48c39fb6d1acf56c0",
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "23435af8ff7216906f3fd483b71f6ea0",
+      "314b749305460791812cb69de442b14d",
+      "62c62e99dae6e140bcf0916841f4922f",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "635d29af4e8b8898a1b2de5e278083b2"
+     ],
+     "apn": 9341104319546,
+     "Size": "One Size",
+     "price": 2.5,
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2023-06-28"
+      },
+      {
+       "type": "promo",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "Colour": "Blue",
+     "Seller": [
+      "Kmart"
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "42442370",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Ocean"
+    },
+    "value": "Madison Bath Towel - Ocean",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341104319546,
+       "Size": "One Size",
+       "price": 2.5,
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2023-06-28"
+        },
+        {
+         "type": "promo",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "Colour": "Blue",
+       "Seller": [
+        "Kmart"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/fae61d42-b7e7-4eae-bf31-b8fc8facf616/42442370-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "altImages": [
+        "c78ddf2f-22e7-4719-a932-6d487a3b0595/42442370-2"
+       ],
+       "is_default": false,
+       "variation_id": "42442370",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Ocean"
+      },
+      "value": "Madison Bath Towel - Ocean"
+     }
+    ]
+   },
+   {
+    "matched_terms": [
+     "towels"
+    ],
+    "labels": {
+     "__cnstrc_is_context_bestseller": {
+      "display_name": "is_context_bestseller",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_42442486",
+     "url": "/product/2-pack-madison-cotton-hand-towels-ocean-42442486/",
+     "uri": "/product/2-pack-madison-cotton-hand-towels-ocean-42442486/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "363d65a2-852a-453b-8a01-d98d54fe3279/42442486-2"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/c3c19277-e131-41fb-ad0e-234e15c63360/42442486-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "nationalInventory": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "0cf230b26871adf048b23a3288d81a41",
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "averageScore": 4.5,
+      "totalReviews": 201
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Soft and absorbent, these hand washers are great to have by your wash basin or dresser as you freshen up.<br><br><strong>Product Details </strong><ul><li><strong>Dimensions/Size: </strong>40cm (L) x 60cm (W)</li><li><strong>Material: </strong>Cotton</li><li>Made in India</li><li><strong>Colour: </strong>Ocean (Blue)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions: </strong>Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "19d4b43fa883720479d5936e4cc04223",
+      "23435af8ff7216906f3fd483b71f6ea0",
+      "0cf230b26871adf048b23a3288d81a41",
+      "50d2c022c440bd69ba551e412e810905"
+     ],
+     "apn": 9341104321068,
+     "Size": "Miscellaneous",
+     "price": 2.5,
+     "Seller": [
+      "Kmart"
+     ],
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2023-06-28"
+      },
+      {
+       "type": "promo",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "2025-06-25",
+       "currency": "AUD",
+       "startDate": "2025-06-05"
+      }
+     ],
+     "Colour": "Blue",
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "42442486",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Ocean"
+    },
+    "value": "2 Pack Madison Cotton Hand Towels - Ocean",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341104321068,
+       "Size": "Miscellaneous",
+       "price": 2.5,
+       "Seller": [
+        "Kmart"
+       ],
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2023-06-28"
+        },
+        {
+         "type": "promo",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "2025-06-25",
+         "currency": "AUD",
+         "startDate": "2025-06-05"
+        }
+       ],
+       "Colour": "Blue",
+       "altImages": [
+        "363d65a2-852a-453b-8a01-d98d54fe3279/42442486-2"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/c3c19277-e131-41fb-ad0e-234e15c63360/42442486-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "is_default": false,
+       "variation_id": "42442486",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Ocean"
+      },
+      "value": "2 Pack Madison Cotton Hand Towels - Ocean"
+     }
+    ]
+   }
+  ],
+  "sort_options": [
+   {
+    "sort_by": "relevance",
+    "display_name": "Popular",
+    "sort_order": "descending",
+    "status": "",
+    "hidden": false
+   },
+   {
+    "sort_by": "numberOfDaysSinceStartDate",
+    "display_name": "New",
+    "sort_order": "ascending",
+    "status": "",
+    "hidden": false
+   },
+   {
+    "sort_by": "price",
+    "display_name": "$",
+    "sort_order": "ascending",
+    "status": "selected",
+    "hidden": false
+   },
+   {
+    "sort_by": "price",
+    "display_name": "$$$",
+    "sort_order": "descending",
+    "status": "",
+    "hidden": false
+   }
+  ],
+  "refined_content": [],
+  "total_num_results": 32,
+  "features": [
+   {
+    "feature_name": "a_a_test",
+    "display_name": "a_a_test",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "auto_generated_refined_query_rules",
+    "display_name": "Affinity Engine",
+    "enabled": true,
+    "variant": {
+     "name": "default_rules",
+     "display_name": "Default weights"
+    }
+   },
+   {
+    "feature_name": "custom_autosuggest_ui",
+    "display_name": "custom_autosuggest_ui",
+    "enabled": true,
+    "variant": {
+     "name": "custom_autosuggest_ui_image_result_count",
+     "display_name": "custom_autosuggest_ui_image_result_count"
+    }
+   },
+   {
+    "feature_name": "disable_test_only_global_rules_browse",
+    "display_name": "Disables global refined filter rules with include_in_test=1 column",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "disable_test_only_global_rules_search",
+    "display_name": "Disables global refined query rules with include_in_test=1 column",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "disable_test_only_tag_rules",
+    "display_name": "disable test only tag rules",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "enable_campaigns_context_selector_expression",
+    "display_name": "enable campaigns context selector expression",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "enable_holdout_groups",
+    "display_name": "enable holdout groups",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "filter_items",
+    "display_name": "Filter-item boosts",
+    "enabled": true,
+    "variant": {
+     "name": "filter_items_w_atcs_and_purchases",
+     "display_name": "filter_items_w_atcs_and_purchases"
+    }
+   },
+   {
+    "feature_name": "manual_searchandizing",
+    "display_name": "Searchandizing",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "personalization",
+    "display_name": "Personalization",
+    "enabled": true,
+    "variant": {
+     "name": "default_personalization",
+     "display_name": "Default Personalization"
+    }
+   },
+   {
+    "feature_name": "query_items",
+    "display_name": "Learn To Rank",
+    "enabled": true,
+    "variant": {
+     "name": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac",
+     "display_name": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac"
+    }
+   },
+   {
+    "feature_name": "recommendations_merge_allowlist_rules",
+    "display_name": "recommendations_merge_allowlist_rules",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "refined_tag_rules",
+    "display_name": "refined_tag_rules",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_autocomplete",
+    "display_name": "reranker_transformations_autocomplete",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_browse",
+    "display_name": "reranker_transformations_browse",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_search",
+    "display_name": "reranker_transformations_search",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_ces_blending",
+    "display_name": "use_ces_blending",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_enriched_attributes_as_fuzzy_searchable",
+    "display_name": "use_enriched_attributes_as_fuzzy_searchable",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_llm_label_sort",
+    "display_name": "use_llm_label_sort",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_reranker_service_for_all",
+    "display_name": "[DEPRECATED] Use reranker service to rerank search and browse results",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_reranker_service_for_browse",
+    "display_name": "Use reranker service to rerank browse / collections results",
+    "enabled": true,
+    "variant": {
+     "name": "browse_reranker_v0_top100",
+     "display_name": "browse_reranker_v0_top100"
+    }
+   },
+   {
+    "feature_name": "use_reranker_service_for_search",
+    "display_name": "Use reranker service to rerank search results",
+    "enabled": true,
+    "variant": {
+     "name": "search_reranker_v0_top100",
+     "display_name": "search_reranker_v0_top100"
+    }
+   },
+   {
+    "feature_name": "variation_selection",
+    "display_name": "variation_selection",
+    "enabled": false,
+    "variant": null
+   }
+  ],
+  "related_searches": [],
+  "related_browse_pages": [],
+  "experiments": []
+ },
+ "result_id": "ff8942b9-5c04-4ae4-bc7a-11d1741e364c",
+ "request": {
+  "sort_by": "price",
+  "sort_order": "ascending",
+  "page": 1,
+  "num_results_per_page": 5,
+  "filters": {
+   "Colour": [
+    "Blue"
+   ],
+   "Price": [
+    "0-10"
+   ]
+  },
+  "fmt_options": {
+   "show_hidden_fields": true,
+   "groups_max_depth": 1,
+   "groups_start": "current",
+   "show_hidden_facets": true,
+   "show_protected_facets": false
+  },
+  "blacklist_rules": true,
+  "term": "towel",
+  "section": "Products",
+  "features": {
+   "query_items": true,
+   "a_a_test": false,
+   "auto_generated_refined_query_rules": true,
+   "manual_searchandizing": true,
+   "personalization": true,
+   "filter_items": true,
+   "use_reranker_service_for_search": true,
+   "use_reranker_service_for_browse": true,
+   "use_reranker_service_for_all": false,
+   "custom_autosuggest_ui": true,
+   "disable_test_only_global_rules_search": false,
+   "disable_test_only_global_rules_browse": false,
+   "use_enriched_attributes_as_fuzzy_searchable": false,
+   "refined_tag_rules": true,
+   "disable_test_only_tag_rules": false,
+   "reranker_transformations_browse": false,
+   "use_llm_label_sort": false,
+   "reranker_transformations_search": false,
+   "reranker_transformations_autocomplete": false,
+   "enable_holdout_groups": false,
+   "use_ces_blending": false,
+   "enable_campaigns_context_selector_expression": true,
+   "variation_selection": false,
+   "recommendations_merge_allowlist_rules": false
+  },
+  "feature_variants": {
+   "query_items": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac",
+   "a_a_test": null,
+   "auto_generated_refined_query_rules": "default_rules",
+   "manual_searchandizing": null,
+   "personalization": "default_personalization",
+   "filter_items": "filter_items_w_atcs_and_purchases",
+   "use_reranker_service_for_search": "search_reranker_v0_top100",
+   "use_reranker_service_for_browse": "browse_reranker_v0_top100",
+   "use_reranker_service_for_all": null,
+   "custom_autosuggest_ui": "custom_autosuggest_ui_image_result_count",
+   "disable_test_only_global_rules_search": null,
+   "disable_test_only_global_rules_browse": null,
+   "use_enriched_attributes_as_fuzzy_searchable": null,
+   "refined_tag_rules": null,
+   "disable_test_only_tag_rules": null,
+   "reranker_transformations_browse": null,
+   "use_llm_label_sort": null,
+   "reranker_transformations_search": null,
+   "reranker_transformations_autocomplete": null,
+   "enable_holdout_groups": null,
+   "use_ces_blending": null,
+   "enable_campaigns_context_selector_expression": null,
+   "variation_selection": null,
+   "recommendations_merge_allowlist_rules": null
+  },
+  "filter_match_types": {
+   "Colour": "any",
+   "Price": "any"
+  },
+  "searchandized_items": {}
+ }
+}

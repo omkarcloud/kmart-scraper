@@ -1,0 +1,807 @@
+{
+ "request": {
+  "filters": {
+   "group_id": [
+    "c86c082b7a671be0b7b95b05ab10b8d1"
+   ]
+  },
+  "num_results": 5,
+  "fmt_options": {
+   "show_hidden_fields": true,
+   "show_hidden_facets": true
+  },
+  "section": "Products",
+  "features": {
+   "query_items": true,
+   "a_a_test": false,
+   "auto_generated_refined_query_rules": true,
+   "manual_searchandizing": true,
+   "personalization": true,
+   "filter_items": true,
+   "use_reranker_service_for_search": true,
+   "use_reranker_service_for_browse": true,
+   "use_reranker_service_for_all": false,
+   "custom_autosuggest_ui": true,
+   "disable_test_only_global_rules_search": false,
+   "disable_test_only_global_rules_browse": false,
+   "use_enriched_attributes_as_fuzzy_searchable": false,
+   "reranker_transformations_autocomplete": false,
+   "reranker_transformations_search": false,
+   "variation_selection": false,
+   "use_ces_blending": false,
+   "use_llm_label_sort": false,
+   "reranker_transformations_browse": false,
+   "disable_test_only_tag_rules": false,
+   "recommendations_merge_allowlist_rules": false,
+   "enable_holdout_groups": false,
+   "refined_tag_rules": true,
+   "enable_campaigns_context_selector_expression": true
+  },
+  "feature_variants": {
+   "query_items": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac",
+   "a_a_test": null,
+   "auto_generated_refined_query_rules": "default_rules",
+   "manual_searchandizing": null,
+   "personalization": "default_personalization",
+   "filter_items": "filter_items_w_atcs_and_purchases",
+   "use_reranker_service_for_search": "search_reranker_v0_top100",
+   "use_reranker_service_for_browse": "browse_reranker_v0_top100",
+   "use_reranker_service_for_all": null,
+   "custom_autosuggest_ui": "custom_autosuggest_ui_image_result_count",
+   "disable_test_only_global_rules_search": null,
+   "disable_test_only_global_rules_browse": null,
+   "use_enriched_attributes_as_fuzzy_searchable": null,
+   "reranker_transformations_autocomplete": null,
+   "reranker_transformations_search": null,
+   "variation_selection": null,
+   "use_ces_blending": null,
+   "use_llm_label_sort": null,
+   "reranker_transformations_browse": null,
+   "disable_test_only_tag_rules": null,
+   "recommendations_merge_allowlist_rules": null,
+   "enable_holdout_groups": null,
+   "refined_tag_rules": null,
+   "enable_campaigns_context_selector_expression": null
+  },
+  "pod_id": "bestsellers_products"
+ },
+ "response": {
+  "results": [
+   {
+    "matched_terms": [],
+    "data": {
+     "id": "P_42442370",
+     "url": "/product/madison-bath-towel-ocean-42442370/",
+     "uri": "/product/madison-bath-towel-ocean-42442370/",
+     "video": {},
+     "Brand": "Anko",
+     "badges": [],
+     "altImages": [
+      "c78ddf2f-22e7-4719-a932-6d487a3b0595/42442370-2"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/fae61d42-b7e7-4eae-bf31-b8fc8facf616/42442370-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 346,
+      "averageScore": 4.6
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Wipe yourself dry after a relaxing shower or a splash in the pool with this soft bath towel.<br><br><strong>Product Details</strong><ul><li><strong>Dimensions/Size: </strong>135cm (L) x&nbsp;68cm (W)</li><li><strong>Material: </strong>Cotton</li><li><strong>Colour: </strong>Ocean (Blue)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions: </strong>Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "5979e283e373932b250680959150c70b",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "50d2c022c440bd69ba551e412e810905",
+      "686d3c7be946b11316a1fc44897b10ff",
+      "19d4b43fa883720479d5936e4cc04223",
+      "fe55ea1c2dd73aa48c39fb6d1acf56c0",
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "23435af8ff7216906f3fd483b71f6ea0",
+      "314b749305460791812cb69de442b14d",
+      "62c62e99dae6e140bcf0916841f4922f",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "635d29af4e8b8898a1b2de5e278083b2"
+     ],
+     "apn": 9341104319546,
+     "Size": "One Size",
+     "price": 2.5,
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2023-06-28"
+      },
+      {
+       "type": "promo",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "Colour": "Blue",
+     "Seller": [
+      "Kmart"
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "42442370",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Ocean"
+    },
+    "value": "Madison Bath Towel - Ocean",
+    "is_slotted": false,
+    "labels": {
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "variations": [
+     {
+      "data": {
+       "apn": 9341104319546,
+       "Size": "One Size",
+       "price": 2.5,
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2023-06-28"
+        },
+        {
+         "type": "promo",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "Colour": "Blue",
+       "Seller": [
+        "Kmart"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/fae61d42-b7e7-4eae-bf31-b8fc8facf616/42442370-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "altImages": [
+        "c78ddf2f-22e7-4719-a932-6d487a3b0595/42442370-2"
+       ],
+       "is_default": false,
+       "variation_id": "42442370",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Ocean"
+      },
+      "value": "Madison Bath Towel - Ocean"
+     }
+    ],
+    "strategy": {
+     "id": "bestsellers",
+     "type": "purchase_cnt_14d_w_fallbacks"
+    }
+   },
+   {
+    "matched_terms": [],
+    "data": {
+     "id": "P_41026267",
+     "url": "/product/madison-bath-towel-white-41026267/",
+     "uri": "/product/madison-bath-towel-white-41026267/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "d9966c7a-c3c5-4116-9be9-163e64283ac2/41026267-2"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/b38568b4-815d-4e8a-b8f3-6e3d51520475/41026267-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "nationalInventory": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "1901-01-01",
+     "ratings": {
+      "averageScore": 4.6,
+      "totalReviews": 136
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Soft and absorbent, this bath towel is just what you need after a relaxing bath.<br><br><strong>Product Details</strong><ul><li><strong>Dimensions/Size: </strong>68cm x 1.35m</li><li><strong>Material: </strong>Cotton</li><li><strong>Colour: </strong>White</li></ul>&nbsp;&nbsp;<strong>Additional Information</strong><ul><li><strong>Care instructions: </strong>Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "19d4b43fa883720479d5936e4cc04223",
+      "5979e283e373932b250680959150c70b",
+      "50d2c022c440bd69ba551e412e810905",
+      "635d29af4e8b8898a1b2de5e278083b2",
+      "686d3c7be946b11316a1fc44897b10ff",
+      "62c62e99dae6e140bcf0916841f4922f",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "314b749305460791812cb69de442b14d",
+      "23435af8ff7216906f3fd483b71f6ea0",
+      "fe55ea1c2dd73aa48c39fb6d1acf56c0"
+     ],
+     "apn": 9300805190762,
+     "Size": "One Size",
+     "price": 2.5,
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "White",
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2023-06-28"
+      },
+      {
+       "type": "promo",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "41026267",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "White"
+    },
+    "value": "Madison Bath Towel - White",
+    "is_slotted": false,
+    "labels": {
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "variations": [
+     {
+      "data": {
+       "apn": 9300805190762,
+       "Size": "One Size",
+       "price": 2.5,
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "White",
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2023-06-28"
+        },
+        {
+         "type": "promo",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "altImages": [
+        "d9966c7a-c3c5-4116-9be9-163e64283ac2/41026267-2"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/b38568b4-815d-4e8a-b8f3-6e3d51520475/41026267-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "variation_id": "41026267",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "White"
+      },
+      "value": "Madison Bath Towel - White"
+     }
+    ],
+    "strategy": {
+     "id": "bestsellers",
+     "type": "purchase_cnt_14d_w_fallbacks"
+    }
+   },
+   {
+    "matched_terms": [],
+    "data": {
+     "id": "P_43489640",
+     "url": "/product/edan-cotton-bath-towel-grey-43489640/",
+     "uri": "/product/edan-cotton-bath-towel-grey-43489640/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "22658eb0-66b2-45b3-86b8-3eecb99f98aa/43489640-2",
+      "cf62370c-aa0f-4e8b-9205-e7c46caefaea/43489640-3",
+      "d20b745b-0cf6-407b-90b1-f4132d3efd03/43489640-4",
+      "692c8b8b-a65c-48a2-95d6-21c17aba813a/43489640-5",
+      "3379bb6d-0da7-4ee8-a32f-a7897b4c3573/43489640-6"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/0ebe26f0-25e0-45de-88b5-e8bced3e3299/43489640-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "nationalInventory": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "averageScore": 5,
+      "totalReviews": 8
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "<em><strong>Image of different sizes given only for representation. Product includes only one size as specified in product details section. Please check website for different size options from the same range.</strong></em><br><br>Dry yourself off after a shower or a dip in the pool with this Edan Cotton Bath Towel - a smart pick for everyday use.<br><strong>Product Details</strong><ul><li><strong>Dimensions/Size</strong><strong>:</strong> 135cm (L) x&nbsp;68cm (W)</li><li><strong>Material:</strong>&nbsp;Cotton</li><li><strong>Colour:</strong>&nbsp;Grey</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions</strong>: Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "f28b5206bb561e62380cd15c97f6801a",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "5979e283e373932b250680959150c70b",
+      "635d29af4e8b8898a1b2de5e278083b2"
+     ],
+     "apn": 9341110788404,
+     "Size": "One Size",
+     "price": 5.5,
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "Grey",
+     "prices": [
+      {
+       "type": "list",
+       "amount": "5.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "1899-12-30"
+      },
+      {
+       "type": "promo",
+       "amount": "5.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "43489640",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Grey"
+    },
+    "value": "Edan Cotton Bath Towel - Grey",
+    "is_slotted": false,
+    "labels": {
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "variations": [
+     {
+      "data": {
+       "apn": 9341110788404,
+       "Size": "One Size",
+       "price": 5.5,
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "Grey",
+       "prices": [
+        {
+         "type": "list",
+         "amount": "5.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "1899-12-30"
+        },
+        {
+         "type": "promo",
+         "amount": "5.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "altImages": [
+        "22658eb0-66b2-45b3-86b8-3eecb99f98aa/43489640-2",
+        "cf62370c-aa0f-4e8b-9205-e7c46caefaea/43489640-3",
+        "d20b745b-0cf6-407b-90b1-f4132d3efd03/43489640-4",
+        "692c8b8b-a65c-48a2-95d6-21c17aba813a/43489640-5",
+        "3379bb6d-0da7-4ee8-a32f-a7897b4c3573/43489640-6"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/0ebe26f0-25e0-45de-88b5-e8bced3e3299/43489640-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "variation_id": "43489640",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Grey"
+      },
+      "value": "Edan Cotton Bath Towel - Grey"
+     }
+    ],
+    "strategy": {
+     "id": "bestsellers",
+     "type": "purchase_cnt_14d_w_fallbacks"
+    }
+   },
+   {
+    "matched_terms": [],
+    "data": {
+     "id": "P_42881025",
+     "url": "/product/madison-bath-towel-latte-42881025/",
+     "uri": "/product/madison-bath-towel-latte-42881025/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "8b67cb30-c832-4c95-a5e1-8558fb55f375/42881025-2",
+      "4af8870f-8164-42ca-a1e9-b8cce8fd635a/42881025-3",
+      "594beb00-97ad-4573-9d91-6ac1a8a547db/42881025-4"
+     ],
+     "image_url": "https://assets.kmart.com.au/transform/bdd64e21-813b-4065-863a-7770387c204b/42881025-1?io=transform:extend,width:580,height:725",
+     "arEnabled": false,
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "AssortedProducts": false,
+     "isPreOrderActive": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 172,
+      "averageScore": 4.7
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Dry yourself off after a shower or a dip in the pool with this soft bath towel.<br /><br /><strong>Product Details</strong><ul><li><strong>Dimensions/Size:</strong>&nbsp;135cm (L) x 68cm (W)</li><li><strong>Material:</strong> Cotton</li><li><strong>Colour:</strong> Latte (Brown)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions:</strong> Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "635d29af4e8b8898a1b2de5e278083b2",
+      "50d2c022c440bd69ba551e412e810905",
+      "62c62e99dae6e140bcf0916841f4922f",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "fe55ea1c2dd73aa48c39fb6d1acf56c0",
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "23435af8ff7216906f3fd483b71f6ea0",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "5979e283e373932b250680959150c70b",
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "19d4b43fa883720479d5936e4cc04223"
+     ],
+     "apn": 9341107303559,
+     "Size": "One Size",
+     "price": 2.5,
+     "prices": [
+      {
+       "type": "list",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2023-06-28"
+      },
+      {
+       "type": "promo",
+       "amount": "2.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "Colour": "Brown",
+     "Seller": [
+      "Kmart"
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "42881025",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Latte"
+    },
+    "value": "Madison Bath Towel - Latte",
+    "is_slotted": false,
+    "labels": {
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "variations": [
+     {
+      "data": {
+       "apn": 9341107303559,
+       "Size": "One Size",
+       "price": 2.5,
+       "prices": [
+        {
+         "type": "list",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2023-06-28"
+        },
+        {
+         "type": "promo",
+         "amount": "2.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "Colour": "Brown",
+       "Seller": [
+        "Kmart"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/bdd64e21-813b-4065-863a-7770387c204b/42881025-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "altImages": [
+        "8b67cb30-c832-4c95-a5e1-8558fb55f375/42881025-2",
+        "4af8870f-8164-42ca-a1e9-b8cce8fd635a/42881025-3",
+        "594beb00-97ad-4573-9d91-6ac1a8a547db/42881025-4"
+       ],
+       "is_default": false,
+       "variation_id": "42881025",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Latte"
+      },
+      "value": "Madison Bath Towel - Latte"
+     }
+    ],
+    "strategy": {
+     "id": "bestsellers",
+     "type": "purchase_cnt_14d_w_fallbacks"
+    }
+   },
+   {
+    "matched_terms": [],
+    "data": {
+     "id": "P_43489664",
+     "url": "/product/edan-cotton-bath-towel-moss-43489664/",
+     "uri": "/product/edan-cotton-bath-towel-moss-43489664/",
+     "Brand": "Anko",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "b01c89d5-a0ae-4b52-83be-d360e020786f/43489664-2",
+      "8ffc3092-9414-4ea5-a7da-4b4cfb11ed3f/43489664-3",
+      "32c3be5b-1a55-4fb4-be88-2d74982256f5/43489664-4",
+      "95698995-0d16-4348-89e8-b8b0c0ef3a3d/43489664-5",
+      "a5273fef-8dbc-4fdf-8200-f1eaed18e0ee/43489664-6"
+     ],
+     "image_url": "https://assets.kmart.com.au/transform/2fd95ae7-f510-4243-ad95-c2b1275fcd0c/43489664-1?io=transform:extend,width:580,height:725",
+     "arEnabled": false,
+     "FreeShipping": true,
+     "MerchClassName": "TOWELS",
+     "MerchDepartment": 72,
+     "AssortedProducts": false,
+     "isPreOrderActive": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "c86c082b7a671be0b7b95b05ab10b8d1",
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 14,
+      "averageScore": 4.9
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "<em><strong>Image of different sizes given only for representation. Product includes only one size as specified in product details section. Please check website for different size options from the same range.</strong></em><br /><br />Dry yourself off after a shower or a dip in the pool with this Edan Cotton Bath Towel - a smart pick for everyday use.<br /><br /><strong>Product Details</strong><ul><li><strong>Dimensions/Size</strong><strong>:</strong> 135cm (L) x&nbsp;68cm (W)</li><li><strong>Material:</strong>&nbsp;Cotton</li><li><strong>Colour:</strong>&nbsp;Moss (Green)</li></ul><strong>Additional Information</strong><ul><li><strong>Care instructions</strong>: Machine wash according to instructions on the care label</li></ul>",
+     "group_ids": [
+      "635d29af4e8b8898a1b2de5e278083b2",
+      "f28b5206bb561e62380cd15c97f6801a",
+      "c86c082b7a671be0b7b95b05ab10b8d1",
+      "bbacd46190ac3f0eb71f8956141754fe",
+      "5979e283e373932b250680959150c70b",
+      "e6a5c757f74f837942879fd60f7c0fbd",
+      "fac0e533fcea70cda9cc5d0ec6a3397c"
+     ],
+     "apn": 9341110788411,
+     "Size": "One Size",
+     "price": 5.5,
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "Green",
+     "prices": [
+      {
+       "type": "list",
+       "amount": "5.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "1899-12-30"
+      },
+      {
+       "type": "promo",
+       "amount": "5.50",
+       "country": "AU",
+       "endDate": "2026-06-03",
+       "currency": "AUD",
+       "startDate": "2026-05-14"
+      }
+     ],
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "43489664",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Moss"
+    },
+    "value": "Edan Cotton Bath Towel - Moss",
+    "is_slotted": false,
+    "labels": {
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "variations": [
+     {
+      "data": {
+       "apn": 9341110788411,
+       "Size": "One Size",
+       "price": 5.5,
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "Green",
+       "prices": [
+        {
+         "type": "list",
+         "amount": "5.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "1899-12-30"
+        },
+        {
+         "type": "promo",
+         "amount": "5.50",
+         "country": "AU",
+         "endDate": "2026-06-03",
+         "currency": "AUD",
+         "startDate": "2026-05-14"
+        }
+       ],
+       "altImages": [
+        "b01c89d5-a0ae-4b52-83be-d360e020786f/43489664-2",
+        "8ffc3092-9414-4ea5-a7da-4b4cfb11ed3f/43489664-3",
+        "32c3be5b-1a55-4fb4-be88-2d74982256f5/43489664-4",
+        "95698995-0d16-4348-89e8-b8b0c0ef3a3d/43489664-5",
+        "a5273fef-8dbc-4fdf-8200-f1eaed18e0ee/43489664-6"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/2fd95ae7-f510-4243-ad95-c2b1275fcd0c/43489664-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "variation_id": "43489664",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Moss"
+      },
+      "value": "Edan Cotton Bath Towel - Moss"
+     }
+    ],
+    "strategy": {
+     "id": "bestsellers"
+    }
+   }
+  ],
+  "total_num_results": 5,
+  "pod": {
+   "id": "bestsellers_products",
+   "display_name": "Best Sellers",
+   "channels": [
+    "site"
+   ]
+  },
+  "experiments": []
+ },
+ "result_id": "7bf64fbb-b2bf-4169-9e93-76f9a1540bbf"
+}

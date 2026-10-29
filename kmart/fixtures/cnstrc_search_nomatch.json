@@ -1,0 +1,2296 @@
+{
+ "response": {
+  "result_sources": {
+   "token_match": {
+    "count": 0
+   },
+   "embeddings_match": {
+    "count": 100
+   }
+  },
+  "facets": [
+   {
+    "display_name": "Shops",
+    "name": "Shops",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Aisle Six",
+      "value": "Aisle Six",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Boutique Retailer",
+      "value": "Boutique Retailer",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Dave's Deals",
+      "value": "Dave's Deals",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 10,
+      "display_name": "Discount Party Supplies",
+      "value": "Discount Party Supplies",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "KG SuperStore",
+      "value": "KG SuperStore",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 74,
+      "display_name": "Kmart",
+      "value": "Kmart",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "More Than Party",
+      "value": "More Than Party",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Target",
+      "value": "Target",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "The Gamesmen",
+      "value": "The Gamesmen",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Category",
+    "name": "Category",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Action Figures",
+      "value": "Action Figures",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Gums",
+      "value": "Gums",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 23,
+      "display_name": "Action Toys and Blasters",
+      "value": "Action Toys and Blasters",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Action Toys & Blasters",
+      "value": "Action Toys & Blasters",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Outdoor Play",
+      "value": "Outdoor Play",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 11,
+      "display_name": "Seasonal Confectionary",
+      "value": "Seasonal Confectionary",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "Novelty Confectionery",
+      "value": "Novelty Confectionery",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Share Packs",
+      "value": "Share Packs",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Impulse & Novelty Toys",
+      "value": "Impulse & Novelty Toys",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Lollies & Candies",
+      "value": "Lollies & Candies",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Pools, Beach & Swimming",
+      "value": "Pools, Beach & Swimming",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Party Favours & Glow",
+      "value": "Party Favours & Glow",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Bubbles",
+      "value": "Bubbles",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Subcategory",
+    "name": "Subcategory",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Figurines & Playsets",
+      "value": "Figurines & Playsets",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 12,
+      "display_name": "Water Play",
+      "value": "Water Play",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "Water Blasters",
+      "value": "Water Blasters",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 7,
+      "display_name": "Foam Dart Blasters",
+      "value": "Foam Dart Blasters",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Beach",
+      "value": "Beach",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Pools & Swimming",
+      "value": "Pools & Swimming",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Action Toys",
+      "value": "Action Toys",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Product Type",
+    "name": "Product Type",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Gum",
+      "value": "Gum",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Lollies",
+      "value": "Lollies",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Chupa Chups",
+      "value": "Chupa Chups",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Outdoor Play",
+      "value": "Outdoor Play",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Christmas Food",
+      "value": "Christmas Food",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Party Favours",
+      "value": "Party Favours",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Candies",
+      "value": "Candies",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Variety Packs",
+      "value": "Variety Packs",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Glow Party Pack & Sticks",
+      "value": "Glow Party Pack & Sticks",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Chocolates",
+      "value": "Chocolates",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Colour",
+    "name": "Colour",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 85,
+      "display_name": "Multi",
+      "value": "Multi",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Grey",
+      "value": "Grey",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Blue",
+      "value": "Blue",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Red",
+      "value": "Red",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Brown",
+      "value": "Brown",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Black",
+      "value": "Black",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "White",
+      "value": "White",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Green",
+      "value": "Green",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Brand",
+    "name": "Brand",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "Anko",
+      "value": "Anko",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Artwrap",
+      "value": "Artwrap",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "BR Costumes",
+      "value": "BR Costumes",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "Chupa Chups",
+      "value": "Chupa Chups",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Durmaz",
+      "value": "Durmaz",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Hubba Bubba",
+      "value": "Hubba Bubba",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Kazaang",
+      "value": "Kazaang",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Keezi",
+      "value": "Keezi",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Marvel",
+      "value": "Marvel",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "MDI Aus",
+      "value": "MDI Aus",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Meteor",
+      "value": "Meteor",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Minions",
+      "value": "Minions",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Park Avenue",
+      "value": "Park Avenue",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "Party Maker",
+      "value": "Party Maker",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Partyrama",
+      "value": "Partyrama",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Simpsons",
+      "value": "Simpsons",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Sorini",
+      "value": "Sorini",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Tassei Denki",
+      "value": "Tassei Denki",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Warheads",
+      "value": "Warheads",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Widmann",
+      "value": "Widmann",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Wrigley&apos;s",
+      "value": "Wrigley&apos;s",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "X-Shot",
+      "value": "X-Shot",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Zappos",
+      "value": "Zappos",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 15,
+      "display_name": "Zuru",
+      "value": "Zuru",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in NSW",
+    "name": "Available in NSW",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 91,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 9,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Price",
+    "name": "Price",
+    "type": "multiple",
+    "hidden": false,
+    "data": {},
+    "options": [
+     {
+      "status": "",
+      "count": 42,
+      "display_name": "$5 and less",
+      "value": "\"-inf\"-\"5\"",
+      "data": {},
+      "range": [
+       "-inf",
+       5
+      ]
+     },
+     {
+      "status": "",
+      "count": 31,
+      "display_name": "$5 - $10",
+      "value": "\"5\"-\"10\"",
+      "data": {},
+      "range": [
+       5,
+       10
+      ]
+     },
+     {
+      "status": "",
+      "count": 23,
+      "display_name": "$10 - $20",
+      "value": "\"10\"-\"20\"",
+      "data": {},
+      "range": [
+       10,
+       20
+      ]
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "$20 - $30",
+      "value": "\"20\"-\"30\"",
+      "data": {},
+      "range": [
+       20,
+       30
+      ]
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "$30 - $50",
+      "value": "\"30\"-\"50\"",
+      "data": {},
+      "range": [
+       30,
+       50
+      ]
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "$50 - $100",
+      "value": "\"50\"-\"100\"",
+      "data": {},
+      "range": [
+       50,
+       100
+      ]
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "$100 and more",
+      "value": "\"100\"-\"inf\"",
+      "data": {},
+      "range": [
+       100,
+       "inf"
+      ]
+     }
+    ]
+   },
+   {
+    "display_name": "Quantity",
+    "name": "Quantity",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "0 - 50g",
+      "value": "0 - 50g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 5,
+      "display_name": "50 - 100g",
+      "value": "50 - 100g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "100 - 200g",
+      "value": "100 - 200g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "200 - 300g",
+      "value": "200 - 300g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "300 - 400g",
+      "value": "300 - 400g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "400 - 500g",
+      "value": "400 - 500g",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Over 500g",
+      "value": "Over 500g",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in WA",
+    "name": "Available in WA",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 87,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 13,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in TAS",
+    "name": "Available in TAS",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 85,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 15,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Material",
+    "name": "Material",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 10,
+      "display_name": "Plastic",
+      "value": "Plastic",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Polyethylene",
+      "value": "Polyethylene",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "PVC",
+      "value": "PVC",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Rubber",
+      "value": "Rubber",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Foam",
+      "value": "Foam",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in VIC",
+    "name": "Available in VIC",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 91,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 9,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in QLD",
+    "name": "Available in QLD",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 90,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 10,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "onepassEligible",
+    "name": "onepassEligible",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 35,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 65,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Suitable for ages",
+    "name": "Suitable for ages",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 15,
+      "display_name": "2-4 Years",
+      "value": "2+ Years",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 14,
+      "display_name": "5+ Years",
+      "value": "5+ Years",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "8+ Years",
+      "value": "8+ Years",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Available in SA",
+    "name": "Available in SA",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 89,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 11,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in ACT",
+    "name": "Available in ACT",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 87,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 13,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "onlineOnly",
+    "name": "onlineOnly",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 76,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 24,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Available in NT",
+    "name": "Available in NT",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 82,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 18,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Seller",
+    "name": "Seller",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 74,
+      "display_name": "Kmart",
+      "value": "Kmart",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 28,
+      "display_name": "Marketplace",
+      "value": "Marketplace",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Target",
+      "value": "Target",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Size",
+    "name": "Size",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 77,
+      "display_name": "/One Size ",
+      "value": "One Size Fits All",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Character",
+    "name": "Character",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Avengers",
+      "value": "Avengers",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Pack Size",
+    "name": "Pack Size",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "1 - 5 ",
+      "value": "1 - 5",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "2026-05-10",
+      "value": "2026-05-10",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "20 - 30",
+      "value": "20 - 30",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "40 - 50",
+      "value": "40 - 50",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "clearance",
+    "name": "clearance",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 97,
+      "display_name": "False",
+      "value": "False",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "True",
+      "value": "True",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Batteries Included",
+    "name": "Batteries Included",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "Yes",
+      "value": "Yes",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "No",
+      "value": "No",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Battery Type",
+    "name": "Battery Type",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "AAA",
+      "value": "AAA",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "AA",
+      "value": "AA",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Rechargeable",
+      "value": "Rechargeable",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "Battery Required",
+    "name": "Battery Required",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 8,
+      "display_name": "Yes",
+      "value": "Yes",
+      "data": {}
+     }
+    ],
+    "hidden": false,
+    "data": {}
+   },
+   {
+    "display_name": "secondarycolour",
+    "name": "secondarycolour",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 67,
+      "display_name": "Assorted",
+      "value": "Assorted",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 7,
+      "display_name": "Asst",
+      "value": "Asst",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "Miscell",
+      "value": "Miscell",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "ASSORTED",
+      "value": "ASSORTED",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "BROWN",
+      "value": "BROWN",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "__cnstrc_age",
+    "name": "__cnstrc_age",
+    "data": {},
+    "type": "range",
+    "hidden": true,
+    "status": {},
+    "min": 60,
+    "max": 50512
+   },
+   {
+    "display_name": "stateOOS",
+    "name": "stateOOS",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 75,
+      "display_name": "\"{}\"",
+      "value": "\"{}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "\"{\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 4,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"SA\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"SA\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 3,
+      "display_name": "\"{\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"ACT\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"ACT\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "\"{\\\"ACT\\\":\\\"9\\\"}\"",
+      "value": "\"{\\\"ACT\\\":\\\"9\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"NSW\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"NSW\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"VIC\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"VIC\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 6,
+      "display_name": "\"{\\\"NSW\\\":\\\"9\\\",\\\"VIC\\\":\\\"9\\\",\\\"QLD\\\":\\\"9\\\",\\\"TAS\\\":\\\"9\\\",\\\"ACT\\\":\\\"9\\\",\\\"SA\\\":\\\"9\\\",\\\"WA\\\":\\\"9\\\",\\\"NT\\\":\\\"9\\\"}\"",
+      "value": "\"{\\\"NSW\\\":\\\"9\\\",\\\"VIC\\\":\\\"9\\\",\\\"QLD\\\":\\\"9\\\",\\\"TAS\\\":\\\"9\\\",\\\"ACT\\\":\\\"9\\\",\\\"SA\\\":\\\"9\\\",\\\"WA\\\":\\\"9\\\",\\\"NT\\\":\\\"9\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 1,
+      "display_name": "\"{\\\"TAS\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"TAS\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     },
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "\"{\\\"NSW\\\":\\\"6\\\",\\\"VIC\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "value": "\"{\\\"NSW\\\":\\\"6\\\",\\\"VIC\\\":\\\"6\\\",\\\"QLD\\\":\\\"6\\\",\\\"TAS\\\":\\\"6\\\",\\\"ACT\\\":\\\"6\\\",\\\"SA\\\":\\\"6\\\",\\\"WA\\\":\\\"6\\\",\\\"NT\\\":\\\"6\\\"}\"",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   },
+   {
+    "display_name": "Allergens",
+    "name": "Allergens",
+    "type": "multiple",
+    "options": [
+     {
+      "status": "",
+      "count": 2,
+      "display_name": "Gluten and Lactose free",
+      "value": "Gluten and Lactose free",
+      "data": {}
+     }
+    ],
+    "hidden": true,
+    "data": {}
+   }
+  ],
+  "groups": [
+   {
+    "group_id": "all",
+    "display_name": "All",
+    "count": 100,
+    "data": {},
+    "children": [
+     {
+      "group_id": "66d0af2d5da0109dc2aae67829f7d4d4",
+      "display_name": "Toys",
+      "count": 43,
+      "data": {
+       "url": "/toys/",
+       "sequence": 14000,
+       "isSpecial": false,
+       "identifier": "Toys",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "66d0af2d5da0109dc2aae67829f7d4d4"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "336fdcf7d540e4b430a890b63da159c9",
+      "display_name": "Entertainment",
+      "count": 54,
+      "data": {
+       "url": "/entertainment/",
+       "sequence": 20000,
+       "isSpecial": false,
+       "identifier": "Entertainment",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "336fdcf7d540e4b430a890b63da159c9"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "dddaa894234df841cfb678463562e055",
+      "display_name": "Home & Living",
+      "count": 26,
+      "data": {
+       "url": "/home-and-living/",
+       "sequence": 10000,
+       "isSpecial": false,
+       "identifier": "Home & Living",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "dddaa894234df841cfb678463562e055"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "68c62296c6e2865b9b758619795bc0aa",
+      "display_name": "Brands",
+      "count": 13,
+      "data": {
+       "url": "/brands/",
+       "sequence": 20875,
+       "isSpecial": false,
+       "identifier": "Shop All Brands",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "68c62296c6e2865b9b758619795bc0aa"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "e1114432a2ac994a333544d5da17e1fb",
+      "display_name": "Halloween",
+      "count": 12,
+      "data": {
+       "url": "/halloween/",
+       "sequence": 4000,
+       "isSpecial": false,
+       "identifier": "Halloween",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "e1114432a2ac994a333544d5da17e1fb"
+       ],
+       "defaultCategory": false
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "6095b2832f08bb7ca1c60ffc1b2d091b",
+      "display_name": "Kids & Baby",
+      "count": 4,
+      "data": {
+       "url": "/kids/",
+       "sequence": 13000,
+       "isSpecial": false,
+       "identifier": "Kids & Baby",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "6095b2832f08bb7ca1c60ffc1b2d091b"
+       ],
+       "defaultCategory": false
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "81b616fbff55b8698d44852f45c08630",
+      "display_name": "Christmas",
+      "count": 4,
+      "data": {
+       "url": "/christmas/",
+       "sequence": 3000,
+       "isSpecial": false,
+       "identifier": "Christmas",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "81b616fbff55b8698d44852f45c08630"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "faaad9343dac03b28bb32e4b4156a604",
+      "display_name": "Clearance",
+      "count": 3,
+      "data": {
+       "url": "/inactive/",
+       "sequence": 23000,
+       "isSpecial": false,
+       "identifier": "Clearance",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "faaad9343dac03b28bb32e4b4156a604"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "2d95e1e17abc6c9afb85088671f65e3a",
+      "display_name": "Sport & Outdoor",
+      "count": 7,
+      "data": {
+       "url": "/sport-and-outdoor/",
+       "sequence": 18000,
+       "isSpecial": false,
+       "identifier": "Sport & Outdoor",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "2d95e1e17abc6c9afb85088671f65e3a"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "89abe35cb1ad766f11a28c598fd37ba1",
+      "display_name": "Gifting",
+      "count": 1,
+      "data": {
+       "url": "/gifting/",
+       "sequence": 22000,
+       "isSpecial": false,
+       "identifier": "Gifting",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "89abe35cb1ad766f11a28c598fd37ba1"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     },
+     {
+      "group_id": "d30313c1bd20cdb153334f6ae1232738",
+      "display_name": "Tech & Gaming",
+      "count": 2,
+      "data": {
+       "url": "/tech-and-gaming/",
+       "sequence": 19000,
+       "isSpecial": false,
+       "identifier": "Tech & Gaming",
+       "breadcrumbs": [
+        "b9805e11857bf8b29b5d9a8ea8de48b7",
+        "d30313c1bd20cdb153334f6ae1232738"
+       ],
+       "defaultCategory": true
+      },
+      "children": [],
+      "parents": [
+       {
+        "display_name": "All",
+        "group_id": "all"
+       }
+      ]
+     }
+    ],
+    "parents": []
+   }
+  ],
+  "results": [
+   {
+    "matched_terms": [],
+    "labels": {
+     "__cnstrc_is_global_trending_now": {
+      "display_name": "is_global_trending_now",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_43389162",
+     "url": "/product/small-water-blaster-assorted-43389162/",
+     "uri": "/product/small-water-blaster-assorted-43389162/",
+     "video": {},
+     "badges": [],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/7dff859f-b76f-41c2-8398-9d0550208343/43389162-1?io=transform:extend,width:580,height:725",
+     "altImages": [
+      "137c7e40-67d4-4e5e-ac21-8dd2703a6913/43389162-2",
+      "a2ac6b80-4a94-46fb-9161-481e93d7569f/43389162-3",
+      "4cfef0a0-fed8-4455-b85f-6c116a8b57ad/43389162-4",
+      "57e6552b-be22-41f8-aa2b-e65a1987b3e8/43389162-5",
+      "3b4cffe4-5b1b-45d5-9de0-f8e095d92f49/43389162-6",
+      "eda6474e-0dee-47a7-83a3-2050959ae9bd/43389162-7",
+      "a65fe8b1-8696-4999-bc94-f2fed1c063fd/43389162-8"
+     ],
+     "FreeShipping": true,
+     "MerchClassName": "WEAPONS",
+     "MerchDepartment": 47,
+     "AssortedProducts": true,
+     "isPreOrderActive": false,
+     "primaryCategoryId": "22ee9727ab99d95e161835139e2b381a",
+     "FreeShippingMetro": true,
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 2,
+      "averageScore": 4
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "<em>*Each sold separately</em><br><br>Kids will have a blast soaking their mates with this cool Small Water Blaster.<br><br><strong>Product Details</strong><ul><li><strong>Suitable for ages:&nbsp;</strong>3+ years</li><li>Includes only 1 Small Water Blaster</li><li><strong>Dimensions/Size:</strong>&nbsp;11.5cm (H) x 18.5cm (W) x 4.4cm (D)</li></ul><strong>Features</strong><ul><li>Small size</li><li>Shoots up to 6m</li></ul><strong>Additional Information</strong><ul><li>Adult supervision required</li><li><strong>Note:</strong>&nbsp;To avoid injury, do not shoot at a person's or animal's face or eye. Follow instructions carefully.</li></ul><strong>Warning:&nbsp;</strong>Choking hazard. Small parts. Follow usage instructions carefully.<br><br><strong>Disclaimer:</strong>&nbsp;Products are sold separately and come in various designs. We cannot guarantee which design you will receive as products are selected at random for online orders.",
+     "group_ids": [
+      "4d50ef66a6e95f58d98581495fbdc322",
+      "62c62e99dae6e140bcf0916841f4922f",
+      "533c7dbe214575e4e49e9f33cc9dde67",
+      "6de585ea50f665315ef487ee9134b72f",
+      "fff2ed1c1f179e654ccd64b4d5e8b934",
+      "6fe630ebf07ecc1e1c68cf3ba93efd96",
+      "39f78ff7822a84c1100e3a3517c8add5",
+      "22ee9727ab99d95e161835139e2b381a",
+      "6e640cf79a09034938619d117673e38e",
+      "50d2c022c440bd69ba551e412e810905",
+      "fe55ea1c2dd73aa48c39fb6d1acf56c0"
+     ],
+     "apn": 9341110383777,
+     "Size": "One Size",
+     "price": 1,
+     "prices": [
+      {
+       "type": "list",
+       "amount": "1.00",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2026-07-31"
+      }
+     ],
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "Multi",
+     "clearance": false,
+     "is_default": false,
+     "stateOOS": {
+      "WA": "6",
+      "NT": "6"
+     },
+     "variation_id": "43389162",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Assorted"
+    },
+    "value": "Small Water Blaster - Assorted",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 9341110383777,
+       "Size": "One Size",
+       "price": 1,
+       "prices": [
+        {
+         "type": "list",
+         "amount": "1.00",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2026-07-31"
+        }
+       ],
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "Multi",
+       "altImages": [
+        "137c7e40-67d4-4e5e-ac21-8dd2703a6913/43389162-2",
+        "a2ac6b80-4a94-46fb-9161-481e93d7569f/43389162-3",
+        "4cfef0a0-fed8-4455-b85f-6c116a8b57ad/43389162-4",
+        "57e6552b-be22-41f8-aa2b-e65a1987b3e8/43389162-5",
+        "3b4cffe4-5b1b-45d5-9de0-f8e095d92f49/43389162-6",
+        "eda6474e-0dee-47a7-83a3-2050959ae9bd/43389162-7",
+        "a65fe8b1-8696-4999-bc94-f2fed1c063fd/43389162-8"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/7dff859f-b76f-41c2-8398-9d0550208343/43389162-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "stateOOS": {
+        "WA": "6",
+        "NT": "6"
+       },
+       "variation_id": "43389162",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Assorted"
+      },
+      "value": "Small Water Blaster - Assorted"
+     }
+    ]
+   },
+   {
+    "matched_terms": [],
+    "labels": {
+     "__cnstrc_is_global_trending_now": {
+      "display_name": "is_global_trending_now",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_42722748",
+     "url": "/product/35-piece-chupa-chups-faces-flat-lollipops-210g-42722748/",
+     "uri": "/product/35-piece-chupa-chups-faces-flat-lollipops-210g-42722748/",
+     "Brand": "Chupa Chups",
+     "video": {},
+     "badges": [],
+     "altImages": [
+      "695bedfd-b7b0-4017-b9d1-8730baad486a/42722748-2",
+      "12b9d5c4-1d14-436d-8764-e386588a8cf3/42722748-3"
+     ],
+     "image_url": "https://assets.kmart.com.au/transform/17f80eb5-3495-4d80-affa-c0a2a9345e0e/42722748-1?io=transform:extend,width:580,height:725",
+     "arEnabled": false,
+     "FreeShipping": true,
+     "MerchClassName": "SHAREPACKS",
+     "MerchDepartment": 44,
+     "AssortedProducts": false,
+     "isPreOrderActive": false,
+     "FulfilmentChannel": 3,
+     "primaryCategoryId": "0ff49ddb36864ae8e0d8c87bba754463",
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 18,
+      "averageScore": 4.8
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Your child will totally love these face-shaped lollipops that come in delicious orange, grape, strawberry and cola flavour.<br><br><strong>Product Details</strong><ul><li><strong>Net weight:</strong> 210g</li><li>Orange, grape, strawberry and cola flavour</li><li>Includes 35 individually wrapped lollipops</li><li><strong>Ingredients:</strong> Sugar, Glucose Syrup (Corn), Acids (Lactic Acid, Malic Acid, Citric Acid), Flavourings, Colours (Paprika Oleoresins, Caramel IV, Carmines, Beet Red)</li><li>Made in China</li></ul><strong>Features</strong><ul><li>Jumbo share lollipops pack</li><li>No artificial colours</li><li>Gluten free</li><li>99% fat free</li></ul><strong>Additional Information<br><br>Disclaimer:</strong> All reasonable efforts have been made to ensure that ingredient listing for this product is accurate, up to date and complete.",
+     "group_ids": [
+      "1d04ee18b0aff6981011d74b99866075",
+      "6c80672984da9b2634407ca3d5d103fd",
+      "73508343312b2db1550a4f5b25b4acc6",
+      "0ff49ddb36864ae8e0d8c87bba754463",
+      "3b0af6e0f180c752391889a22185773a",
+      "fac0e533fcea70cda9cc5d0ec6a3397c"
+     ],
+     "apn": 6911316002500,
+     "Size": "Miscellaneous",
+     "price": 5.5,
+     "prices": [
+      {
+       "type": "list",
+       "amount": "5.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2025-02-12"
+      }
+     ],
+     "Seller": [
+      "Kmart"
+     ],
+     "Colour": "Multi",
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "42722748",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Asst"
+    },
+    "value": "35 Piece Chupa Chups Faces Flat Lollipops 210g",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 6911316002500,
+       "Size": "Miscellaneous",
+       "price": 5.5,
+       "prices": [
+        {
+         "type": "list",
+         "amount": "5.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2025-02-12"
+        }
+       ],
+       "Seller": [
+        "Kmart"
+       ],
+       "Colour": "Multi",
+       "altImages": [
+        "695bedfd-b7b0-4017-b9d1-8730baad486a/42722748-2",
+        "12b9d5c4-1d14-436d-8764-e386588a8cf3/42722748-3"
+       ],
+       "clearance": false,
+       "image_url": "https://assets.kmart.com.au/transform/17f80eb5-3495-4d80-affa-c0a2a9345e0e/42722748-1?io=transform:extend,width:580,height:725",
+       "is_default": false,
+       "variation_id": "42722748",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Asst"
+      },
+      "value": "35 Piece Chupa Chups Faces Flat Lollipops 210g"
+     }
+    ]
+   },
+   {
+    "matched_terms": [],
+    "labels": {
+     "__cnstrc_is_global_trending_now": {
+      "display_name": "is_global_trending_now",
+      "value": null
+     },
+     "__cnstrc_is_global_bestseller": {
+      "display_name": "is_global_bestseller",
+      "value": null
+     }
+    },
+    "data": {
+     "id": "P_43153787",
+     "url": "/product/50-pack-chupa-chups-incredible-chew-share-bag-175g-43153787/",
+     "uri": "/product/50-pack-chupa-chups-incredible-chew-share-bag-175g-43153787/",
+     "video": {},
+     "Brand": "Chupa Chups",
+     "badges": [],
+     "altImages": [
+      "30dbda07-6bac-41ac-aa20-8c94c5249aea/43153787-2",
+      "e8e954e1-4f81-4705-9f06-7d88cc266a70/43153787-3"
+     ],
+     "arEnabled": false,
+     "image_url": "https://assets.kmart.com.au/transform/50dd217d-21d8-4df2-b627-3889d6631c5c/43153787-1?io=transform:extend,width:580,height:725",
+     "FreeShipping": true,
+     "MerchClassName": "SHAREPACKS",
+     "MerchDepartment": 44,
+     "isPreOrderActive": false,
+     "AssortedProducts": false,
+     "primaryCategoryId": "0ff49ddb36864ae8e0d8c87bba754463",
+     "FulfilmentChannel": 3,
+     "nationalInventory": false,
+     "FreeShippingMetro": true,
+     "preOrderReleaseDate": "2000-01-01",
+     "ratings": {
+      "totalReviews": 7,
+      "averageScore": 5
+     },
+     "flatRateBigBulkyMetro": false,
+     "badgesMarketplace": {
+      "seller": [
+       {
+        "id": "1",
+        "type": "seller",
+        "order": 1,
+        "variant": "kmart",
+        "displayText": "kmart",
+        "displayLabel": ""
+       }
+      ]
+     },
+     "description": "Chupa Chups Incredible Chews are bursting with flavour and fun. These are made with natural colours and individually wrapped, and available in strawberry, cola and green apple flavours.<br><br><strong>Product Details</strong><ul><li><strong>Net weight:</strong> 175g</li><li>Includes 50 soft chews</li><li>Strawberry, cola and green apple flavours</li><li><strong>Ingredients:</strong> Glucose Syrup, Sugar, Hydrogenated Vegetable Oil, Gelatine, Reconstituted Fruit Juices (Apple, Strawberry, Lemon) (1.9%), Acids (Citric Acid, Malic Acid, Lactic Acid), Emulsier (Sucrose Esters Of Fatty Acids), Flavourings, Concentrates (Black Carrot, Spirulina, Safflower), Colour (Caramel Iv), Maltodextrin</li><li><strong>Allergen information: </strong>May contain milk.</li><li>Made in Vietnam</li></ul><strong>Features</strong><ul><li>Long-lasting soft chews</li><li>Natural colours</li></ul><strong>Additional Information</strong><ul><li><strong>Note: </strong>Store in a cool and dry place</li></ul><strong>Disclaimer:</strong>&nbsp;All reasonable efforts have been made to ensure that the ingredient list for this product is accurate, up-to-date and complete.",
+     "group_ids": [
+      "fac0e533fcea70cda9cc5d0ec6a3397c",
+      "73508343312b2db1550a4f5b25b4acc6",
+      "1d04ee18b0aff6981011d74b99866075",
+      "0ff49ddb36864ae8e0d8c87bba754463",
+      "6c80672984da9b2634407ca3d5d103fd",
+      "3b0af6e0f180c752391889a22185773a"
+     ],
+     "apn": 8935001726425,
+     "Size": "Miscellaneous",
+     "price": 4.5,
+     "Seller": [
+      "Kmart"
+     ],
+     "prices": [
+      {
+       "type": "list",
+       "amount": "4.50",
+       "country": "AU",
+       "endDate": "9999-12-31",
+       "currency": "AUD",
+       "startDate": "2025-02-12"
+      }
+     ],
+     "Colour": "Multi",
+     "clearance": false,
+     "is_default": false,
+     "variation_id": "43153787",
+     "variant_video": {},
+     "variant_badges": [],
+     "SecondaryColour": "Assorted"
+    },
+    "value": "50 Pack Chupa Chups Incredible Chew Share Bag 175g",
+    "is_slotted": false,
+    "variations": [
+     {
+      "data": {
+       "apn": 8935001726425,
+       "Size": "Miscellaneous",
+       "price": 4.5,
+       "Seller": [
+        "Kmart"
+       ],
+       "prices": [
+        {
+         "type": "list",
+         "amount": "4.50",
+         "country": "AU",
+         "endDate": "9999-12-31",
+         "currency": "AUD",
+         "startDate": "2025-02-12"
+        }
+       ],
+       "Colour": "Multi",
+       "altImages": [
+        "30dbda07-6bac-41ac-aa20-8c94c5249aea/43153787-2",
+        "e8e954e1-4f81-4705-9f06-7d88cc266a70/43153787-3"
+       ],
+       "image_url": "https://assets.kmart.com.au/transform/50dd217d-21d8-4df2-b627-3889d6631c5c/43153787-1?io=transform:extend,width:580,height:725",
+       "clearance": false,
+       "is_default": false,
+       "variation_id": "43153787",
+       "variant_video": {},
+       "variant_badges": [],
+       "SecondaryColour": "Assorted"
+      },
+      "value": "50 Pack Chupa Chups Incredible Chew Share Bag 175g"
+     }
+    ]
+   }
+  ],
+  "sort_options": [
+   {
+    "sort_by": "relevance",
+    "display_name": "Popular",
+    "sort_order": "descending",
+    "status": "selected",
+    "hidden": false
+   },
+   {
+    "sort_by": "numberOfDaysSinceStartDate",
+    "display_name": "New",
+    "sort_order": "ascending",
+    "status": "",
+    "hidden": false
+   },
+   {
+    "sort_by": "price",
+    "display_name": "$",
+    "sort_order": "ascending",
+    "status": "",
+    "hidden": false
+   },
+   {
+    "sort_by": "price",
+    "display_name": "$$$",
+    "sort_order": "descending",
+    "status": "",
+    "hidden": false
+   }
+  ],
+  "refined_content": [],
+  "total_num_results": 100,
+  "features": [
+   {
+    "feature_name": "a_a_test",
+    "display_name": "a_a_test",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "auto_generated_refined_query_rules",
+    "display_name": "Affinity Engine",
+    "enabled": true,
+    "variant": {
+     "name": "default_rules",
+     "display_name": "Default weights"
+    }
+   },
+   {
+    "feature_name": "custom_autosuggest_ui",
+    "display_name": "custom_autosuggest_ui",
+    "enabled": true,
+    "variant": {
+     "name": "custom_autosuggest_ui_image_result_count",
+     "display_name": "custom_autosuggest_ui_image_result_count"
+    }
+   },
+   {
+    "feature_name": "disable_test_only_global_rules_browse",
+    "display_name": "Disables global refined filter rules with include_in_test=1 column",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "disable_test_only_global_rules_search",
+    "display_name": "Disables global refined query rules with include_in_test=1 column",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "disable_test_only_tag_rules",
+    "display_name": "disable test only tag rules",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "enable_campaigns_context_selector_expression",
+    "display_name": "enable campaigns context selector expression",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "enable_holdout_groups",
+    "display_name": "enable holdout groups",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "filter_items",
+    "display_name": "Filter-item boosts",
+    "enabled": true,
+    "variant": {
+     "name": "filter_items_w_atcs_and_purchases",
+     "display_name": "filter_items_w_atcs_and_purchases"
+    }
+   },
+   {
+    "feature_name": "manual_searchandizing",
+    "display_name": "Searchandizing",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "personalization",
+    "display_name": "Personalization",
+    "enabled": true,
+    "variant": {
+     "name": "default_personalization",
+     "display_name": "Default Personalization"
+    }
+   },
+   {
+    "feature_name": "query_items",
+    "display_name": "Learn To Rank",
+    "enabled": true,
+    "variant": {
+     "name": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac",
+     "display_name": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac"
+    }
+   },
+   {
+    "feature_name": "recommendations_merge_allowlist_rules",
+    "display_name": "recommendations_merge_allowlist_rules",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "refined_tag_rules",
+    "display_name": "refined_tag_rules",
+    "enabled": true,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_autocomplete",
+    "display_name": "reranker_transformations_autocomplete",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_browse",
+    "display_name": "reranker_transformations_browse",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "reranker_transformations_search",
+    "display_name": "reranker_transformations_search",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_ces_blending",
+    "display_name": "use_ces_blending",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_enriched_attributes_as_fuzzy_searchable",
+    "display_name": "use_enriched_attributes_as_fuzzy_searchable",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_llm_label_sort",
+    "display_name": "use_llm_label_sort",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_reranker_service_for_all",
+    "display_name": "[DEPRECATED] Use reranker service to rerank search and browse results",
+    "enabled": false,
+    "variant": null
+   },
+   {
+    "feature_name": "use_reranker_service_for_browse",
+    "display_name": "Use reranker service to rerank browse / collections results",
+    "enabled": true,
+    "variant": {
+     "name": "browse_reranker_v0_top100",
+     "display_name": "browse_reranker_v0_top100"
+    }
+   },
+   {
+    "feature_name": "use_reranker_service_for_search",
+    "display_name": "Use reranker service to rerank search results",
+    "enabled": true,
+    "variant": {
+     "name": "search_reranker_v0_top100",
+     "display_name": "search_reranker_v0_top100"
+    }
+   },
+   {
+    "feature_name": "variation_selection",
+    "display_name": "variation_selection",
+    "enabled": false,
+    "variant": null
+   }
+  ],
+  "related_searches": [],
+  "related_browse_pages": [],
+  "experiments": []
+ },
+ "result_id": "3d88f715-811a-48ca-8757-9aa2ae8c6878",
+ "request": {
+  "sort_by": "relevance",
+  "sort_order": "descending",
+  "num_results_per_page": 3,
+  "fmt_options": {
+   "show_hidden_fields": true,
+   "groups_max_depth": 1,
+   "groups_start": "current",
+   "show_hidden_facets": true,
+   "show_protected_facets": false
+  },
+  "blacklist_rules": true,
+  "term": "zzqqxxyyzz",
+  "page": 1,
+  "section": "Products",
+  "features": {
+   "query_items": true,
+   "a_a_test": false,
+   "auto_generated_refined_query_rules": true,
+   "manual_searchandizing": true,
+   "personalization": true,
+   "filter_items": true,
+   "use_reranker_service_for_search": true,
+   "use_reranker_service_for_browse": true,
+   "use_reranker_service_for_all": false,
+   "custom_autosuggest_ui": true,
+   "disable_test_only_global_rules_search": false,
+   "disable_test_only_global_rules_browse": false,
+   "use_enriched_attributes_as_fuzzy_searchable": false,
+   "disable_test_only_tag_rules": false,
+   "reranker_transformations_autocomplete": false,
+   "use_ces_blending": false,
+   "reranker_transformations_browse": false,
+   "variation_selection": false,
+   "use_llm_label_sort": false,
+   "reranker_transformations_search": false,
+   "enable_holdout_groups": false,
+   "recommendations_merge_allowlist_rules": false,
+   "enable_campaigns_context_selector_expression": true,
+   "refined_tag_rules": true
+  },
+  "feature_variants": {
+   "query_items": "query_items_ctr_l2r_ctr_ss_no_stem_in_qssac",
+   "a_a_test": null,
+   "auto_generated_refined_query_rules": "default_rules",
+   "manual_searchandizing": null,
+   "personalization": "default_personalization",
+   "filter_items": "filter_items_w_atcs_and_purchases",
+   "use_reranker_service_for_search": "search_reranker_v0_top100",
+   "use_reranker_service_for_browse": "browse_reranker_v0_top100",
+   "use_reranker_service_for_all": null,
+   "custom_autosuggest_ui": "custom_autosuggest_ui_image_result_count",
+   "disable_test_only_global_rules_search": null,
+   "disable_test_only_global_rules_browse": null,
+   "use_enriched_attributes_as_fuzzy_searchable": null,
+   "disable_test_only_tag_rules": null,
+   "reranker_transformations_autocomplete": null,
+   "use_ces_blending": null,
+   "reranker_transformations_browse": null,
+   "variation_selection": null,
+   "use_llm_label_sort": null,
+   "reranker_transformations_search": null,
+   "enable_holdout_groups": null,
+   "recommendations_merge_allowlist_rules": null,
+   "enable_campaigns_context_selector_expression": null,
+   "refined_tag_rules": null
+  },
+  "searchandized_items": {}
+ }
+}

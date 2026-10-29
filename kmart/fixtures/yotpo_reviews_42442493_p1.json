@@ -1,0 +1,262 @@
+{
+ "status": {
+  "code": 200,
+  "message": "OK"
+ },
+ "response": {
+  "found_filtered_reviews": null,
+  "pagination": {
+   "page": 1,
+   "per_page": 5,
+   "total": 348
+  },
+  "bottomline": {
+   "total_review": 348,
+   "average_score": 4.62069,
+   "total_organic_reviews": 0,
+   "organic_average_score": 0.0,
+   "star_distribution": {
+    "1": 6,
+    "2": 3,
+    "3": 18,
+    "4": 63,
+    "5": 258
+   },
+   "custom_fields_bottomline": {
+    "--24697": {
+     "title": "Value",
+     "type": "Rating",
+     "average_score": 5,
+     "score": 5.0
+    },
+    "--24696": {
+     "title": "Quality",
+     "type": "Rating",
+     "average_score": 4,
+     "score": 4.0
+    }
+   }
+  },
+  "products": [
+   {
+    "id": 141316701,
+    "domain_key": "42442493",
+    "name": "Madison Mega Towel - Ocean",
+    "social_links": {
+     "linkedin": "https://yotpo.com/go/jQaKAFAv",
+     "facebook": "https://yotpo.com/go/3ekpUOfw",
+     "twitter": "https://yotpo.com/go/36yVCh1n",
+     "google_oauth2": "https://yotpo.com/go/6UBXNC4Z"
+    },
+    "embedded_widget_link": "https://yotpo.com/go/rILcx3Ju",
+    "testimonials_product_link": "https://yotpo.com/go/d6UHOOrK",
+    "product_link": "https://yotpo.com/go/syvxcGeG",
+    "image_url": "https://cdn-yotpo-images-production.yotpo.com/Product/145052616/94186658/square.png?1760519415"
+   }
+  ],
+  "grouping_data": {},
+  "syndication_data": {},
+  "product_tags": [
+   {
+    "id": 523573694,
+    "tag": "gm"
+   }
+  ],
+  "reviews": [
+   {
+    "id": 898272817,
+    "score": 5,
+    "votes_up": 0,
+    "votes_down": 0,
+    "content": "Love the color and the size is great",
+    "title": "Love the color and the",
+    "sentiment": 0.9486099,
+    "created_at": "2026-09-30T18:42:09.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 4
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 323182843,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Sarah W."
+    },
+    "language": "en"
+   },
+   {
+    "id": 883920755,
+    "score": 5,
+    "votes_up": 0,
+    "votes_down": 0,
+    "content": "Great towel for the price",
+    "title": "Great value towel",
+    "sentiment": 0.9668181,
+    "created_at": "2026-08-23T05:06:17.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 4
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 33114463,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Lesley S."
+    },
+    "language": "en"
+   },
+   {
+    "id": 876589788,
+    "score": 5,
+    "votes_up": 1,
+    "votes_down": 0,
+    "content": "Great length that fits around me than most standard towels. I always buy these mostly in store",
+    "title": "Great for visitors",
+    "sentiment": 0.9745735,
+    "created_at": "2026-08-02T17:32:47.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 289394642,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Jessie M."
+    },
+    "language": "en"
+   },
+   {
+    "id": 874138733,
+    "score": 5,
+    "votes_up": 2,
+    "votes_down": 0,
+    "content": "These are very large and absorbent. I have a few in the different colours and love them",
+    "title": "Towels",
+    "sentiment": 0.8612715,
+    "created_at": "2026-07-26T11:34:44.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 72163081,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Nena K."
+    },
+    "language": "en"
+   },
+   {
+    "id": 870394226,
+    "score": 5,
+    "votes_up": 1,
+    "votes_down": 0,
+    "content": "A bit thin but nice and big so works well after showers or baths",
+    "title": "A bit thin but nice",
+    "sentiment": 0.5515206,
+    "created_at": "2026-07-17T03:08:35.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 79831452,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Katie J."
+    },
+    "language": "en"
+   }
+  ]
+ }
+}

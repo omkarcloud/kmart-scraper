@@ -1,0 +1,188 @@
+{
+ "status": {
+  "code": 200,
+  "message": "OK"
+ },
+ "response": {
+  "found_filtered_reviews": null,
+  "pagination": {
+   "page": 1,
+   "per_page": 3,
+   "total": 348
+  },
+  "bottomline": {
+   "total_review": 348,
+   "average_score": 4.62069,
+   "total_organic_reviews": 0,
+   "organic_average_score": 0.0,
+   "star_distribution": {
+    "1": 6,
+    "2": 3,
+    "3": 18,
+    "4": 63,
+    "5": 258
+   },
+   "custom_fields_bottomline": {
+    "--24697": {
+     "title": "Value",
+     "type": "Rating",
+     "average_score": 5,
+     "score": 5.0
+    },
+    "--24696": {
+     "title": "Quality",
+     "type": "Rating",
+     "average_score": 4,
+     "score": 4.0
+    }
+   }
+  },
+  "products": [
+   {
+    "id": 141316701,
+    "domain_key": "42442493",
+    "name": "Madison Mega Towel - Ocean",
+    "social_links": {
+     "linkedin": "https://yotpo.com/go/jQaKAFAv",
+     "facebook": "https://yotpo.com/go/3ekpUOfw",
+     "twitter": "https://yotpo.com/go/36yVCh1n",
+     "google_oauth2": "https://yotpo.com/go/6UBXNC4Z"
+    },
+    "embedded_widget_link": "https://yotpo.com/go/rILcx3Ju",
+    "testimonials_product_link": "https://yotpo.com/go/d6UHOOrK",
+    "product_link": "https://yotpo.com/go/syvxcGeG",
+    "image_url": "https://cdn-yotpo-images-production.yotpo.com/Product/145052616/94186658/square.png?1760519415"
+   }
+  ],
+  "grouping_data": {},
+  "syndication_data": {},
+  "product_tags": [
+   {
+    "id": 523573694,
+    "tag": "gm"
+   }
+  ],
+  "reviews": [
+   {
+    "id": 133839960,
+    "score": 5,
+    "votes_up": 21,
+    "votes_down": 0,
+    "content": "Really happy with these towels, wish there was more colours too choose from but I'll wait till they get purple ones in and get more. Well worth the price and very huge!!",
+    "title": "Absolutely love these towels",
+    "sentiment": 0.97046167,
+    "created_at": "2019-11-12T11:59:06.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 13428064,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Samantha w."
+    },
+    "language": "en"
+   },
+   {
+    "id": 426194363,
+    "score": 5,
+    "votes_up": 15,
+    "votes_down": 0,
+    "content": "I have been buying these towels for many years, for the price they are amazing",
+    "title": "I have been buying these",
+    "sentiment": 0.9860654,
+    "created_at": "2022-12-18T22:37:30.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 15617681,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Amanda G."
+    },
+    "language": "en"
+   },
+   {
+    "id": 139111496,
+    "score": 5,
+    "votes_up": 14,
+    "votes_down": 1,
+    "content": "Love the size of these towels, they cover you completely and are the perfect addition to any bathroom and a dam bargain for the price!!",
+    "title": "Covers you completely",
+    "sentiment": 0.98863906,
+    "created_at": "2019-11-30T03:23:05.000Z",
+    "deleted": false,
+    "verified_buyer": true,
+    "source_review_id": null,
+    "custom_fields": {
+     "--24697": {
+      "title": "Value",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     },
+     "--24696": {
+      "title": "Quality",
+      "form_id": 18647,
+      "field_type": "Rating",
+      "value": 5
+     }
+    },
+    "product_id": 141316701,
+    "is_incentivized": false,
+    "incentive_type": null,
+    "images_data": null,
+    "comment": null,
+    "user": {
+     "user_id": 31281689,
+     "social_image": null,
+     "user_type": "User",
+     "is_social_connected": 0,
+     "display_name": "Rennie S."
+    },
+    "language": "en"
+   }
+  ]
+ }
+}

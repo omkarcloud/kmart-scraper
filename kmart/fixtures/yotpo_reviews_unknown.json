@@ -1,0 +1,24 @@
+{
+ "status": null,
+ "response": {
+  "found_filtered_reviews": null,
+  "pagination": {
+   "page": 0,
+   "per_page": 5,
+   "total": 0
+  },
+  "bottomline": {
+   "total_review": 0,
+   "average_score": 0.0,
+   "total_organic_reviews": 0,
+   "organic_average_score": 0.0,
+   "star_distribution": null,
+   "custom_fields_bottomline": {}
+  },
+  "products": [],
+  "grouping_data": {},
+  "syndication_data": {},
+  "product_tags": null,
+  "reviews": []
+ }
+}

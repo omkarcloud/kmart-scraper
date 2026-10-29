@@ -1,0 +1,11 @@
+services:
+  kmart-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional. Set an Australian residential proxy only if store, seller
+      # or sitemap endpoints start answering 403 at high volume.
+      # - KMART_PROXY=http://user:pass@host:port
