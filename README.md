@@ -117,9 +117,9 @@ Pulling store, seller or sitemap pages at high volume? If they start answering 4
 
 The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
 
-1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-kmart-scraper-free-1000-calls/pricing) — 1,000 calls/month, no credit card.
-2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-kmart-scraper-free-1000-calls/playground) — every param is pre-filled, so you see real data in one click.
-3. Copy the generated code and replace `https://best-kmart-scraper-free-1000-calls.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
+1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-kmart-scraper-free-1000-calls5/pricing) — 1,000 calls/month, no credit card.
+2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-kmart-scraper-free-1000-calls5/playground) — every param is pre-filled, so you see real data in one click.
+3. Copy the generated code and replace `https://best-kmart-scraper-free-1000-calls5.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
 
 ```python
 import requests
