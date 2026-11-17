@@ -125,6 +125,12 @@ def test_specials_schema():
 def test_brands_schemas():
     assert schemas.BrandsSchema().load({}) == {"category": None, "query": None}
     assert schemas.BrandsSchema().load({"query": " le "}) == {"category": None, "query": "le"}
+    # an empty optional string is None, never a len(None) TypeError from the length validator
+    assert schemas.BrandsSchema().load({"query": ""}) == {"category": None, "query": None}
+    assert schemas.ProductsSearchSchema().load({"query": "x", "brand": " ", "colour": "", "size": ""})["brand"] is None
+    assert schemas.SellersSchema().load({"query": "   "}) == {"query": None}
+    assert schemas.StoresSearchSchema().load({"location": ""})["location"] is None
+    assert "query" in errors(schemas.BrandsSchema, {"query": "x" * 101})
     loaded = schemas.BrandProductsSchema().load({"brand": "Anko"})
     assert loaded == {**LISTING_DEFAULTS, "brand": "Anko"}
     assert "brand" in errors(schemas.BrandProductsSchema, {})

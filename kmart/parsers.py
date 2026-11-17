@@ -35,13 +35,14 @@ Fixtures (kmart/fixtures/, captured 2026-10-28 from the live site):
   sitemap_content.xml, sitemap_product_i_head300.xml, sitemap_category_head300.xml
 """
 import html as html_lib
-import json
+import fastjson
 import math
 import re
 from datetime import date
 
 from kmart.refs import (AU_STATES, SITE, keycode_from_item_id, product_link, seller_link,
                         seller_slug, store_link, store_slug_from_link)
+from scraper_utils.values import first_float as to_float, first_int as to_int
 
 CURRENCY = "AUD"
 IMAGE_CDN = "https://assets.kmart.com.au/transform/"
@@ -66,25 +67,6 @@ _TITLE_RE = re.compile(r"<title>([^<]*)</title>", re.I)
 
 
 # ---- value helpers --------------------------------------------------------------
-
-def to_float(value):
-    if value is None or isinstance(value, bool):
-        return None
-    if isinstance(value, (int, float)):
-        return float(value)
-    match = re.search(r"-?\d+(?:\.\d+)?", str(value).replace(",", ""))
-    return float(match.group(0)) if match else None
-
-
-def to_int(value):
-    if value is None or isinstance(value, bool):
-        return None
-    if isinstance(value, int):
-        return value
-    if isinstance(value, float):
-        return int(value)
-    match = re.search(r"-?\d+", str(value).replace(",", ""))
-    return int(match.group(0)) if match else None
 
 
 def to_bool(value):
@@ -183,7 +165,7 @@ def parse_state_oos(value):
     the sorted list of states the item is out of stock in."""
     if isinstance(value, str):
         try:
-            value = json.loads(value)
+            value = fastjson.loads(value)
         except ValueError:
             return []
     if not isinstance(value, dict):
@@ -662,7 +644,7 @@ def next_data(html):
     if not match:
         return None
     try:
-        return json.loads(match.group(1))
+        return fastjson.loads(match.group(1))
     except ValueError:
         return None
 
@@ -870,7 +852,7 @@ def parse_location_query(text):
         return "coords", (float(match.group(1)), float(match.group(2)))
     if re.fullmatch(r"\d{4}", text):
         return "postcode", text
-    return "text", " ".join(text.lower().split())
+    return "text", " ".join(re.sub(r"[,;]+", " ", text.lower()).split())   # "Sydney, NSW" -> "sydney nsw"
 
 
 def rank_stores(stores, location=None, state=None):

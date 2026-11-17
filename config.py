@@ -30,6 +30,10 @@ KMART_YOTPO_KEY = "SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG"
 KMART_PROXY = os.environ.get("KMART_PROXY") or None
 
 
-def kmart_proxy():
+def kmart_proxy(*args, **kwargs):
     """The proxy for one curl session (None = direct)."""
     return os.environ.get("KMART_PROXY") or None
+
+
+# ---- added by the sync: defaults for a direct run ----
+KMART_FALLBACK_EXIT = None

@@ -346,6 +346,8 @@ def _categories(category, depth):
 
 
 def categories(**data):
+    # an empty `category=` loads as None (optional RefField), not the "all" default
+    data["category"] = data.get("category") or "all"
     return cached_call("kmart.categories", data, _categories, ttl.TREE_CACHE)
 
 
@@ -414,9 +416,15 @@ def brands(**data):
     return cached_call("kmart.brands", data, _brands, ttl.BRANDS_CACHE)
 
 
+NARROWING_FILTERS = ("colour", "size", "seller", "min_price", "max_price", "state", "clearance", "online_only", "onepass")
+
+
 def _brand_products(**data):
     listing = _browse("Brand", data["brand"], data)
-    if data["page"] == 1 and not listing["results"] and not listing["pagination"].get("total_count"):
+    # an unknown brand answers an empty page 1 — but so does a known brand
+    # under a filter nothing matches, which is an empty listing, not a 404
+    narrowed = any(data.get(k) is not None for k in NARROWING_FILTERS)
+    if data["page"] == 1 and not narrowed and not listing["results"] and not listing["pagination"].get("total_count"):
         raise KmartNotFound(f"brand {data['brand']!r} not found (see /kmart/brands for the list)")
     return _listing_response(listing, brand=data["brand"])
 

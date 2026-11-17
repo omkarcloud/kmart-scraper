@@ -25,6 +25,7 @@ from kmart.fetch import MAX_ITEM_IDS, MAX_PAGE_SIZE, MAX_RECOMMENDATIONS, MAX_RE
 from kmart.parsers import RESULT_WINDOW, SORTS
 from schema_fields import (BaseSchema, ChoiceField, Flag, LimitField, PageField, PageSizeField,
                            PositiveInt, Price, QueryField, RefField, StrippedString)
+from scraper_utils.schema import max_length as _max_length
 
 DEFAULT_PAGE_SIZE = 40            # the site's own listing page
 MAX_LISTING_PAGE = RESULT_WINDOW // 20   # 500: past the 10,000th result Constructor serves nothing
@@ -92,11 +93,11 @@ class ProductListField(fields.Field):
 
 class ListingSchema(BaseSchema):
     """Filters, sort and paging shared by every product listing route."""
-    brand = StrippedString(required=False, load_default=None, validate=validate.Length(max=100),
+    brand = StrippedString(required=False, load_default=None, validate=_max_length(100),
                            metadata={"description": "brand name as the Brand facet lists it (Anko, Adidas)"})
-    colour = StrippedString(required=False, load_default=None, validate=validate.Length(max=50),
+    colour = StrippedString(required=False, load_default=None, validate=_max_length(50),
                             metadata={"description": "colour facet value (Blue, Green, Multi)"})
-    size = StrippedString(required=False, load_default=None, validate=validate.Length(max=50),
+    size = StrippedString(required=False, load_default=None, validate=_max_length(50),
                           metadata={"description": "size facet value (M, 10, One Size)"})
     seller = SellerRefField(required=False, load_default=None,
                             metadata={"description": "only this seller: shop slug, name or /shop/ link (kmart, target, abm-global)"})
@@ -187,7 +188,7 @@ class SpecialsSchema(ListingSchema):
 class BrandsSchema(BaseSchema):
     category = CategoryRefField(required=False, load_default=None, metadata={
         "description": "only brands with products in this category"})
-    query = StrippedString(required=False, load_default=None, validate=validate.Length(max=100),
+    query = StrippedString(required=False, load_default=None, validate=_max_length(100),
                            metadata={"description": "only brands whose name contains this text"})
 
 
@@ -199,7 +200,7 @@ class BrandProductsSchema(ListingSchema):
 # ---- sellers --------------------------------------------------------------------------
 
 class SellersSchema(BaseSchema):
-    query = StrippedString(required=False, load_default=None, validate=validate.Length(max=100),
+    query = StrippedString(required=False, load_default=None, validate=_max_length(100),
                            metadata={"description": "only sellers whose name contains this text"})
 
 
@@ -214,7 +215,7 @@ class SellerProductsSchema(ListingSchema):
 # ---- stores ---------------------------------------------------------------------------
 
 class StoresSearchSchema(BaseSchema):
-    location = StrippedString(required=False, load_default=None, validate=validate.Length(max=100),
+    location = StrippedString(required=False, load_default=None, validate=_max_length(100),
                               metadata={"description": "suburb / store name, a 4-digit postcode, or lat,lng (-32.5357,115.7431); omit for every store"})
     state = ChoiceField(list(refs.AU_STATES), metadata={"description": "only stores in this state"})
     page = PageField(max_page=50, metadata={"description": "1-based page"})

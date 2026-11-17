@@ -20,6 +20,7 @@ import pytest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from kmart import parsers as P, refs  # noqa: E402
+from scraper_utils.testing import hosted_only
 
 FX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures")
 
@@ -100,6 +101,7 @@ def test_resolve_category_rejects(value):
     ("ABM Global", "abm-global"),
     ("Bedding co.", "bedding-co."),
     ("Dave's Deals", "dave's-deals"),
+    ("Mason & Frankie", "mason-and-frankie"),      # the sitemap spells & out
     ("https://www.kmart.com.au/shop/target/", "target"),
     ("https://www.kmart.com.au/shop/Target?page=2", "target"),
 ])
@@ -499,6 +501,9 @@ def test_seller_index():
     assert by_slug["target"]["product_count"] > 10000 and by_slug["target"]["page_updated"] == "2026-10-01"
     assert by_slug["kmart"]["has_shop_page"] is False and by_slug["kmart"]["link"] is None
     assert by_slug["bedding-co."]["name"] == "Bedding co."
+    # "Mason & Frankie" (facet) and /shop/mason-and-frankie/ (sitemap) are ONE seller
+    assert by_slug["mason-and-frankie"]["name"] == "Mason & Frankie" and by_slug["mason-and-frankie"]["has_shop_page"] is True
+    assert "mason-&-frankie" not in by_slug
     assert rows[0]["product_count"] >= rows[1]["product_count"]
     assert P.parse_seller_index({}, []) == []
 
@@ -553,6 +558,7 @@ def test_parse_location_query():
     assert P.parse_location_query("-32.5, 115.7") == ("coords", (-32.5, 115.7))
     assert P.parse_location_query("6210") == ("postcode", "6210")
     assert P.parse_location_query("  Mandurah  WA ") == ("text", "mandurah wa")
+    assert P.parse_location_query("Sydney, NSW") == ("text", "sydney nsw")
 
 
 def test_rank_stores(stores):
@@ -562,8 +568,99 @@ def test_rank_stores(stores):
     assert P.rank_stores(stores, "9999") == []
     assert [s["name"] for s in P.rank_stores(stores, "mandurah")] == ["Mandurah"]
     assert [s["name"] for s in P.rank_stores(stores, "george st")] == ["Sydney CBD"]
+    assert [s["name"] for s in P.rank_stores(stores, "Sydney, NSW")] == ["Sydney CBD"]
     assert P.rank_stores(stores, "nowhere") == []
     assert [s["name"] for s in P.rank_stores(stores, None, "NSW")] == ["Sydney CBD"]
     assert [s["name"] for s in P.rank_stores(stores)] == ["Sydney CBD", "Mandurah"]   # by state, then name
     assert "distance_km" not in P.rank_stores(stores)[0]
     assert P.rank_stores([], "2000") == [] and P.rank_stores(None) == []
+
+
+# ---- api glue (no network: _browse is stubbed) ---------------------------------------------
+
+def test_brand_products_empty_page_is_404_only_without_filters(monkeypatch):
+    from kmart import api
+    from kmart.fetch import KmartNotFound
+    from kmart.schemas import BrandProductsSchema
+    monkeypatch.setattr(api, "_browse", lambda kind, value, data, **kw: api._empty_listing(data["page"], data["limit"]))
+    with pytest.raises(KmartNotFound):                       # unknown brand: empty page 1, no filters
+        api._brand_products(**BrandProductsSchema().load({"brand": "nosuchbrand"}))
+    out = api._brand_products(**BrandProductsSchema().load({"brand": "Anko", "min_price": "5000"}))
+    assert out["brand"] == "Anko" and out["results"] == []   # a known brand under an impossible filter: empty, not 404
+
+
+def test_categories_empty_category_means_the_whole_tree(monkeypatch):
+    from kmart import api
+    from kmart.schemas import CategoriesSchema
+    seen = {}
+    monkeypatch.setattr(api, "cached_call", lambda name, data, impl, ttl: seen.update(data))
+    api.categories(**CategoriesSchema().load({"category": ""}))   # loads as None, not the "all" default
+    assert seen["category"] == "all"
+
+
+# ---- egress (no network: the session is stubbed) ---------------------------------------------
+
+@hosted_only
+def test_exit_sequence(monkeypatch):
+    """KMART_EXIT = "gateway:au" + KMART_FALLBACK_EXIT = "au": the gateway
+    first, the residential exit on a call's last retry and on every retry
+    after a gateway timeout; without a fallback every attempt rides
+    KMART_EXIT (the behaviour before 2026-11-11)."""
+    import config
+    from kmart import fetch
+
+    monkeypatch.setattr(config, "residential_proxy", lambda country, states=None: f"http://u__cr.{country}:p@gw:1")
+    monkeypatch.setattr(config, "MAX_RETRIES", 3)
+    monkeypatch.setattr(fetch.time, "sleep", lambda s: None)
+    monkeypatch.setattr(fetch, "_local", fetch.threading.local())
+    seen = []
+
+    class Session:
+        def __init__(self, exit):
+            self.exit = exit
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(fetch.egress, "new_session", lambda exit, impersonate=None: Session(exit))
+
+    def run(exit, fallback, failures):
+        monkeypatch.setattr(config, "KMART_EXIT", exit)
+        monkeypatch.setattr(config, "KMART_FALLBACK_EXIT", fallback)
+        if getattr(fetch._local, "session", None) is not None and fetch._local.session.exit != config.kmart_proxy():
+            fetch._drop_session()                                 # the knob changed: the thread's session is another exit's
+        del seen[:]
+        queue = list(failures)
+
+        def once():
+            exit = fetch._session().exit or "direct"
+            seen.append("gateway" if exit.startswith("gateway") else "residential" if "__cr." in exit else exit)
+            if queue:
+                raise queue.pop(0)
+            return "ok"
+        try:
+            fetch._retrying(once)
+        except fetch.KmartUpstreamError:
+            seen.append("raised")
+        return list(seen)
+
+    blocked = fetch.KmartBlocked("challenge page for store x")
+    timeout = fetch.KmartUpstreamError("request failed for x: GatewayError: gateway 504 InternalServerErrorException for https://ac.cnstrc.com/x")
+    assert run("gateway:au", "au", []) == ["gateway"]
+    assert run("gateway:au", "au", [blocked]) == ["gateway", "gateway"]
+    assert run("gateway:au", "au", [blocked] * 2) == ["gateway", "gateway", "residential"]
+    assert run("gateway:au", "au", []) == ["gateway"]                     # the call after a fallback starts on the gateway again
+    assert run("gateway:au", "au", [blocked] * 3) == ["gateway", "gateway", "residential", "raised"]
+    assert run("gateway:au", "au", [timeout]) == ["gateway", "residential"]
+    assert run("gateway:au", "au", [timeout, blocked]) == ["gateway", "residential", "residential"]
+    assert run("gateway:au", None, [blocked] * 2) == ["gateway"] * 3
+    assert run("au", None, [blocked] * 2) == ["residential"] * 3
+    assert run(None, None, [blocked]) == ["direct", "direct"]
+    assert fetch._local.language is None                          # a direct session keeps the module-level header
+    run("gateway:au", "au", [])
+    assert fetch._local.language == fetch.egress.accept_language(country="au")
+    run("au", None, [])
+    assert fetch._local.language == fetch.egress.accept_language(country="au")
+    monkeypatch.setattr(config, "KMART_EXIT", "gateway:au")
+    monkeypatch.setattr(config, "KMART_FALLBACK_EXIT", "au")
+    assert config.kmart_proxy() == "gateway:au" and "__cr.au" in config.kmart_proxy(fallback=True)

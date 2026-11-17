@@ -1,10 +1,13 @@
 """Kmart transport: plain curl_cffi with browser-impersonated TLS. No
-browser, no cookies, no tokens. Egress: a sticky AU residential exit per
-session (config.kmart_proxy(), knob KMART_EXIT = "au") — every surface below
-answered 200 on 2/2 AU residential ports from pod
-scrapers-patchright-depl-fdd5b584c-pq7mg on 2026-10-28 (tools/egress_probe.py
-table in config.py). A retryable failure drops the thread's session, so a
-retry rides a fresh exit.
+browser, no cookies, no tokens. Egress: one session per thread on the exit
+config.kmart_proxy() names: in production the Sydney gateway exit (knob
+KMART_EXIT = "gateway:au", 2026-11-11; a fresh gateway address per request, every
+surface below 200 through it, table in config.py), a sticky AU residential
+exit for "au" — every surface below answered 200 on 2/2 AU residential ports
+from pod scrapers-patchright-depl-fdd5b584c-pq7mg on 2026-10-28
+(tools/egress_probe.py table in config.py). A retryable failure drops the
+thread's session, so a retry rides a fresh exit, and a call's last retry
+rides KMART_FALLBACK_EXIT (an AU residential exit).
 
 Upstream surfaces (all open, probed 2026-10-28):
 
@@ -49,8 +52,10 @@ import uuid
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
+import egress
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
 from kmart.refs import SITE, SITEMAP_INDEX
+from scraper_utils import sessions
 
 IMPERSONATE = "chrome"
 JSON_TIMEOUT = 30
@@ -68,14 +73,14 @@ MAX_REVIEWS_PER_PAGE = 150  # Yotpo widget cap
 
 JSON_HEADERS = {
     "accept": "*/*",
-    "accept-language": "en-AU,en;q=0.9",
+    "accept-language": egress.site_accept_language("kmart"),
     "origin": SITE,
     "referer": SITE + "/",
 }
 PAGE_HEADERS = {
     "accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
                "image/avif,image/webp,*/*;q=0.8"),
-    "accept-language": "en-AU,en;q=0.9",
+    "accept-language": egress.site_accept_language("kmart"),
     "upgrade-insecure-requests": "1",
 }
 
@@ -105,40 +110,51 @@ _local = threading.local()
 def _session():
     sess = getattr(_local, "session", None)
     if sess is None:
-        from curl_cffi import requests as curl_requests
-        sess = curl_requests.Session(impersonate=IMPERSONATE)
-        proxy = config.kmart_proxy()
-        if proxy:
-            sess.proxies = {"http": proxy, "https": proxy}
+        proxy = config.kmart_proxy(fallback=getattr(_local, "fallback", False))
+        sess = egress.new_session(proxy, impersonate=IMPERSONATE)     # a proxy URL, None, or the gateway exit ("gateway:au")
         _local.session = sess
+        # a session on a country's exit ("gateway:au", an AU residential port)
+        # announces that country's language; the others keep the
+        # module-level headers (the policy's first tier)
+        _local.language = egress.accept_language(proxy) if egress.exit_country(proxy) else None
         _local.client_id = str(uuid.uuid4())   # Constructor's per-browser `i`
     return sess
 
 
 def _drop_session():
     """Close the thread's session so a poisoned keep-alive connection dies."""
-    sess = getattr(_local, "session", None)
-    _local.session = None
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions.drop(_local)
+
+
+def _gateway_timed_out(error):
+    """the gateway's own 29 s limit (exit_gateway.GatewayError, 504): the
+    target was still answering, so only an exit that can wait will do."""
+    return "GatewayError: gateway 504 " in str(error)
 
 
 def _retrying(fn):
     """Run fn() under the shared retry policy (KmartUpstreamError only;
-    NotFound / BadRequest surface immediately)."""
+    NotFound / BadRequest surface immediately). With a
+    config.KMART_FALLBACK_EXIT the last retry, and every retry after a gateway
+    exit timeout, rides that exit, so a call the configured exit (the gateway
+    exit) keeps failing still gets one try on the residential one."""
     last = None
-    for attempt in range(1, config.MAX_RETRIES + 1):
-        try:
-            return fn()
-        except KmartUpstreamError as e:
-            last = e
-            _drop_session()
-            if attempt < config.MAX_RETRIES:
-                time.sleep(config.RETRY_BACKOFF * attempt)
-    raise last
+    try:
+        for attempt in range(1, config.MAX_RETRIES + 1):
+            try:
+                return fn()
+            except KmartUpstreamError as e:
+                last = e
+                _drop_session()
+                if attempt < config.MAX_RETRIES:
+                    if config.KMART_FALLBACK_EXIT and (attempt + 1 == config.MAX_RETRIES or _gateway_timed_out(e)):
+                        _local.fallback = True          # the session _session() builds next
+                    time.sleep(config.RETRY_BACKOFF * attempt)
+        raise last
+    finally:
+        if getattr(_local, "fallback", False):
+            _local.fallback = False
+            _drop_session()         # the next call starts on the configured exit again
 
 
 def _classify(resp, label):
@@ -154,7 +170,10 @@ def _classify(resp, label):
 
 def _get(url, params, headers, timeout, label):
     try:
-        return _session().get(url, params=params, headers=headers, timeout=timeout)
+        sess = _session()
+        if _local.language:
+            headers = {**headers, "accept-language": _local.language}
+        return sess.get(url, params=params, headers=headers, timeout=timeout)
     except Exception as e:
         raise KmartUpstreamError(f"request failed for {label}: {type(e).__name__}: {e}")
 

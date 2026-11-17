@@ -132,8 +132,10 @@ def resolve_category(value):
 
 def seller_slug(name):
     """A seller's display name -> its /shop/<slug>/ slug (the sitemap keeps
-    punctuation: "Bedding co." -> bedding-co., "Dave's Deals" -> dave's-deals)."""
-    return re.sub(r"\s+", "-", (name or "").strip().lower())
+    punctuation: "Bedding co." -> bedding-co., "Dave's Deals" -> dave's-deals;
+    an ampersand is spelled out: "Mason & Frankie" -> mason-and-frankie)."""
+    name = re.sub(r"\s*&\s*", " and ", (name or "").strip().lower())
+    return re.sub(r"\s+", "-", name)
 
 
 def resolve_seller(value):
